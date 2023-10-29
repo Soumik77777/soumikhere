@@ -10,7 +10,7 @@ function Type() {
           "Planetary Sciences",
           "Machine Learning & AI",
         ],
-        autoStart: false,
+        autoStart: true,
         loop: false,
         deleteSpeed: 50
       }}
