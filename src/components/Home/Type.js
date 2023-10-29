@@ -11,7 +11,8 @@ function Type() {
           "Machine Learning & AI",
         ],
         autoStart: true,
-        loop: false,
+        loop: true,
+        pauseFor: 1000,
         deleteSpeed: 50
       }}
     />
