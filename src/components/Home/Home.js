@@ -28,7 +28,7 @@ function Home() {
                 Hi there!
               </h1>
 
-              <h1 style={{marginLeft: "2px", marginBottom: "50px"}} className="heading-name">
+              <h1 style={{marginLeft: "2px", marginBottom: "60px"}} className="heading-name">
                 <strong className="main-name">Soumik </strong>
                 this side.
               </h1>

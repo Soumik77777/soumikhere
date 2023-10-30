@@ -23,7 +23,7 @@ function Type() {
   return (
     <div
       className="typing-effect"
-      style={{ fontSize: "32px", color: "#cd5ff8", fontWeight: "bold" }}
+      style={{ fontSize: "40px", color: "#cd5ff8", fontWeight: "bold" }}
       dangerouslySetInnerHTML={{ __html: text }}
     />
   );
