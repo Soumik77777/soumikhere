@@ -10,7 +10,7 @@ function HomeButtons() {
     backgroundColor: "#ffff00",
     color: "#000000",
     width: "325px",
-    margin: "80px 0px 80px 100px", // Adjust margin as needed
+    margin: "80px 0px 80px 80px", // Adjust margin as needed
   };
 
   const projectsButtonStyle = {
@@ -24,7 +24,7 @@ function HomeButtons() {
     backgroundColor: "#ffff00",
     color: "#000000",
     width: "325px",
-    margin: "80px 100px 80px 0px", // Adjust margin as needed
+    margin: "80px 80px 80px 0px", // Adjust margin as needed
   };
 
   return (
