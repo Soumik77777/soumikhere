@@ -9,11 +9,6 @@ import HomeButtons from "./HomeButtons";
 import Button from "react-bootstrap/Button";
 
 function Home() {
-  function jahok(){
-    document.querySelector(".about-button-link").addEventListener("click", ()=>{
-      window.location("https://soumikhere.vercel.app/about");
-    })
-  }
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -39,20 +34,11 @@ function Home() {
               </h1>
 
               <p className="home-intro">
-                I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
-              </p>
-              <Button 
-                className="about-button-link"
-                variant="primary"
-                target="_self"
-                style={{ maxWidth: "250px" }}
-              >
-                Know more about myself
-              </Button>              
+                I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
+              </p>          
 
-            
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 0, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
@@ -71,6 +57,7 @@ function Home() {
       <HomeButtons />
       <Home2 />
     </section>
+    
   );
 }
 
