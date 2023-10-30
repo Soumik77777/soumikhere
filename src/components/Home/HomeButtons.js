@@ -2,9 +2,15 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./HomeButtons.css"; // You can create a CSS file for styling
+import "./HomeButtons.css";
 
 function HomeButtons() {
+  const buttonStyle = {
+    backgroundColor: "#ffff00",
+    color: "#000000",
+    width: "325px",
+  };
+
   return (
     <Row>
       <Col sm={4}>
@@ -14,7 +20,7 @@ function HomeButtons() {
           size="lg"
           href={"/about"}
           target="_self"
-          style={{ backgroundColor: "#ffff00", color: "000000" }}
+          style={buttonStyle}
         >
           Learn about me
         </Button>
@@ -27,7 +33,7 @@ function HomeButtons() {
           size="lg"
           href={"/projects"}
           target="_self"
-          style={{ backgroundColor: "#ffff00", color: "000000" }}
+          style={buttonStyle}
         >
           Read about my research
         </Button>
@@ -40,8 +46,8 @@ function HomeButtons() {
           size="lg"
           href={"#"}
           target="_self"
-          style={{ backgroundColor: "#ffff00", color: "000000" }}
           disabled
+          style={buttonStyle}
         >
           Blog posts (coming...)
         </Button>
