@@ -34,15 +34,12 @@ function Home() {
               </h1>
 
               <p style={{marginLeft: "50px", marginBottom: "40px", fontSize: "1.5em"}} className="home-intro">
-                I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
+                This is the place where I talk about my interests, experiences and ideas. Feel free to connect!
               </p>
 
-              <HomeButtons />      
-
-              {/*
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-            </div>*/}
+              </div>
 
             </Col>
 
