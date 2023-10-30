@@ -38,12 +38,12 @@ function Home() {
               </p>          
 
 
-              <div style={{marginLeft: "50px", padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 0 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
