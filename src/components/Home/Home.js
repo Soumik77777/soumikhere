@@ -36,14 +36,7 @@ function Home() {
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
               </p>
 
-              <a
-                href="https://soumikhere.vercel.app/about/"
-                target="_self"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                Know more
-              </a>
+              <a class="btn-blue" href="#">Get The App</a>
 
 
               <div style={{ padding: 50, textAlign: "left" }}>
