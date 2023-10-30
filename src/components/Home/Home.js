@@ -28,7 +28,7 @@ function Home() {
                 Hi there!
               </h1>
 
-              <h1 className="heading-name">
+              <h1 style={{marginLeft: "2px"}} className="heading-name">
                 <strong className="main-name">Soumik </strong>
                 this side.
               </h1>
@@ -38,7 +38,7 @@ function Home() {
               </p>          
 
 
-              <div style={{ padding: 0, textAlign: "left" }}>
+              <div style={{marginLeft: "50px", padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
