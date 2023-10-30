@@ -12,6 +12,7 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
+        <Particle />
         <Container className="home-content">
           <Row>
             <Col className="home-header">
@@ -36,7 +37,7 @@ function Home() {
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
               </p>    
 
-              <HomeButtons />      
+              <HomeButtons style={{ zIndex: 1 }}/>      
 
 
               <div style={{ padding: 50, textAlign: "left" }}>
