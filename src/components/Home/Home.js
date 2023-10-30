@@ -1,16 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main_2.svg";
-import Button from "react-bootstrap/Button";
 import About from "../../components/About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import HomeButtons from "./Buttons.js";
 
 function Home() {
-  function jahok(){
-      window.location.href("https://soumikhere.vercel.app/about")
-    }
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -39,20 +36,12 @@ function Home() {
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
               </p>
 
-              <Button 
-                className="about-button-link"
-                onClick={jahok}
-                variant="primary"
-                href="https://soumikhere.vercel.app/about"
-                target="_self"
-                style={{ maxWidth: "250px" }}
-              >
-                Know more about myself
-              </Button>
-
-
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <B />
+              </div>
+
+              <div>
+                <HomeButtons />
               </div>
             </Col>
 
