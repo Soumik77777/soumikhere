@@ -3,12 +3,14 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./HomeButtons.css";
+import { BsFillArrowRightCircleFill} from "react-icons/bs"
 
 function HomeButtons() {
   const buttonStyle = {
     backgroundColor: "#ffff00",
     color: "#000000",
     width: "325px",
+    margin: "50px",
   };
 
   return (
@@ -22,7 +24,7 @@ function HomeButtons() {
           target="_self"
           style={buttonStyle}
         >
-          Learn about me
+          Learn about me BsFillArrowRightCircleFill
         </Button>
       </Col>
 
