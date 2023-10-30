@@ -1,49 +1,50 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function HomeButtons() {
   return (
-    <div>
-      <div style={{ marginTop: "10px", marginBottom: "10px" }}>
+    <Row>
+      <Col sm={4} style={{ margin: "10px" }}>
         <Button
           className="about-button-link"
           variant="outline-info"
-          size= "lg"
+          size="lg"
           href={"/about"}
           target="_self"
           style={{ maxWidth: "325px" }}
         >
           Learn about me
         </Button>
-      </div>
+      </Col>
 
-      <div style={{marginTop: "10px", marginBottom: "10px" }}>
+      <Col sm={4} style={{ margin: "10px" }}>
         <Button
           className="projects-button-link"
           variant="outline-info"
-          size= "lg"
+          size="lg"
           href={"/projects"}
           target="_self"
           style={{ maxWidth: "325px" }}
         >
           Read about my research
         </Button>
-      </div>
+      </Col>
 
-      <div style={{marginTop: "10px", marginBottom: "10px" }}>
+      <Col sm={4} style={{ margin: "10px" }}>
         <Button
           className="projects-button-link"
           variant="outline-info"
-          size= "lg"
+          size="lg"
           href={"/projects"}
           target="_self"
           style={{ maxWidth: "325px" }}
         >
           Blog posts (coming...)
         </Button>
-      </div>
-      
-    </div>
+      </Col>
+    </Row>
   );
 }
 
