@@ -24,11 +24,11 @@ function Home() {
                 </span>
               </h1> */}
               
-              <h1 className="heading">
+              <h1 style={{marginLeft: "0px", marginBottom: "20px"}} className="heading">
                 Hi there!
               </h1>
 
-              <h1 style={{marginLeft: "2px", marginBottom: "20px"}} className="heading-name">
+              <h1 style={{marginLeft: "2px", marginBottom: "40px"}} className="heading-name">
                 <strong className="main-name">Soumik </strong>
                 this side.
               </h1>

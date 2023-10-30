@@ -7,7 +7,7 @@ function HomeButtons() {
       <Button 
         className="about-button-link"
         variant="primary"
-        href={"https://soumikhere.vercel.app/about"}
+        href={"/about"}
         target="_self"
         style={{ maxWidth: "250px" }}
       >
@@ -15,9 +15,9 @@ function HomeButtons() {
       </Button>
 
       <Button 
-      className="about-button-link"
+      className="projects-button-link"
       variant="primary"
-      href={"https://soumikhere.vercel.app/about"}
+      href={"/projects"}
       target="_self"
       style={{ maxWidth: "250px" }}
       >
