@@ -5,7 +5,7 @@ import About from "../../components/About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import HomeButtons from "./Buttons.js";
+import HomeButtons from "./HomeButtons.js";
 
 function Home() {
   return (
@@ -36,12 +36,12 @@ function Home() {
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
               </p>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <B />
-              </div>
-
               <div>
                 <HomeButtons />
+              </div>
+
+              <div style={{ padding: 50, textAlign: "left" }}>
+                <Type />
               </div>
             </Col>
 

@@ -15,4 +15,4 @@ function HomeButtons() {
   );
 }
 
-export default AboutButton;
+export default HomeButtons;
