@@ -15,7 +15,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col className="home-header">
               {/* Comment out the previous line
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -33,7 +33,7 @@ function Home() {
                 this side.
               </h1>
 
-              <p md={7} className="home-intro">
+              <p className="home-intro">
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
               </p>          
 
