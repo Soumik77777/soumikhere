@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main_2.svg";
 import Button from "react-bootstrap/Button";
+import About from "../../components/About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -37,8 +38,8 @@ function Home() {
 
               <Button
                 variant="primary"
-                href={"https://soumikhere.vercel.app/about"}
-                target="_blank"
+                href={About}
+                target="_self"
                 style={{ maxWidth: "250px" }}
               >
                 Know more about myself
