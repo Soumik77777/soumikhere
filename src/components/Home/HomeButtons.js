@@ -6,7 +6,7 @@ function HomeButtons() {
     <Button 
       className="about-button-link"
       variant="primary"
-      href="https://soumikhere.vercel.app/about"
+      href={"https://soumikhere.vercel.app/about"}
       target="_self"
       style={{ maxWidth: "250px" }}
     >

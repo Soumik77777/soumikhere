@@ -5,7 +5,7 @@ import About from "../../components/About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import HomeButtons from "./HomeButtons.js";
+import HomeButtons from "./HomeButtons";
 
 function Home() {
   return (
