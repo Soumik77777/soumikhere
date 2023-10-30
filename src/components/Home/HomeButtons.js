@@ -10,7 +10,7 @@ function HomeButtons() {
     backgroundColor: "#ffff00",
     color: "#000000",
     width: "325px",
-    margin: "50px",
+    margin: "100px",
   };
 
   return (
@@ -24,7 +24,7 @@ function HomeButtons() {
           target="_self"
           style={buttonStyle}
         >
-          Learn about me BsFillArrowRightCircleFill
+          Learn about me <BsFillArrowRightCircleFill />
         </Button>
       </Col>
 
@@ -37,7 +37,7 @@ function HomeButtons() {
           target="_self"
           style={buttonStyle}
         >
-          Read about my research
+          Read about my research <BsFillArrowRightCircleFill />
         </Button>
       </Col>
 
