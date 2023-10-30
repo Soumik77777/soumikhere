@@ -8,6 +8,11 @@ import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
+  function jahok(){
+    document.querySelector(".about-button-link").addEventListener("click", ()=>{
+      window.location.href("")
+    })
+  }
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -66,11 +71,7 @@ function Home() {
       <Home2 />
     </section>
   );
-  function jahok(){
-    document.querySelector(".about-button-link").addEventListener("click", ()=>{
-      window.location.href("")
-    })
-  }
 }
+
 
 export default Home;
