@@ -38,7 +38,7 @@ function NavBar() {
       <Container>
         <Nav.Item>
           <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-            Home
+            <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
           </Nav.Link>
         </Nav.Item>
         <Navbar.Toggle
