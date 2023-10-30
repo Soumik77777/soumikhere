@@ -35,7 +35,9 @@ function Home() {
 
               <p style={{marginLeft: "50px", marginBottom: "40px", fontSize: "1.5em"}} className="home-intro">
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
-              </p>          
+              </p>    
+
+              <HomeButtons />      
 
 
               <div style={{ padding: 50, textAlign: "left" }}>
