@@ -37,7 +37,7 @@ function Home() {
               </p>
 
               <Button 
-                className="button-link"
+                className="about-button-link"
                 variant="primary"
                 href={"https://soumikhere.vercel.app/about"}
                 target="_self"
@@ -66,6 +66,11 @@ function Home() {
       <Home2 />
     </section>
   );
+  function jahok(){
+    document.querySelector(".about-button-link").addEventListener("click", ()=>{
+      window.location.href("")
+    })
+  }
 }
 
 export default Home;
