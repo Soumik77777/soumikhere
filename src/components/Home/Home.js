@@ -5,6 +5,7 @@ import About from "../../components/About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import HomeButtons from "./HomeButtons";
 import Button from "react-bootstrap/Button";
 
 function Home() {
@@ -67,6 +68,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <HomeButtons />
       <Home2 />
     </section>
   );
