@@ -11,9 +11,9 @@ function HomeButtons() {
           size= "lg"
           href={"/about"}
           target="_self"
-          style={{ maxWidth: "250px" }}
+          style={{ maxWidth: "325px" }}
         >
-          Know more about myself
+          Learn about me
         </Button>
       </div>
 
@@ -24,11 +24,25 @@ function HomeButtons() {
           size= "lg"
           href={"/projects"}
           target="_self"
-          style={{ maxWidth: "250px" }}
+          style={{ maxWidth: "325px" }}
         >
-          Know more about my research
+          Read about my research
         </Button>
       </div>
+
+      <div style={{marginTop: "10px", marginBottom: "10px" }}>
+        <Button
+          className="projects-button-link"
+          variant="outline-info"
+          size= "lg"
+          href={"/projects"}
+          target="_self"
+          style={{ maxWidth: "325px" }}
+        >
+          Blog posts (coming...)
+        </Button>
+      </div>
+      
     </div>
   );
 }
