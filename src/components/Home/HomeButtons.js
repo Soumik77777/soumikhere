@@ -14,6 +14,7 @@ function HomeButtons() {
           size="lg"
           href={"/about"}
           target="_self"
+          style={{ backgroundColor: "#ffff00", color: "000000" }}
         >
           Learn about me
         </Button>
@@ -26,6 +27,7 @@ function HomeButtons() {
           size="lg"
           href={"/projects"}
           target="_self"
+          style={{ backgroundColor: "#ffff00", color: "000000" }}
         >
           Read about my research
         </Button>
@@ -38,6 +40,7 @@ function HomeButtons() {
           size="lg"
           href={"#"}
           target="_self"
+          style={{ backgroundColor: "#ffff00", color: "000000" }}
           disabled
         >
           Blog posts (coming...)
