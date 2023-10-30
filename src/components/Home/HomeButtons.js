@@ -7,7 +7,8 @@ function HomeButtons() {
       <div style={{ marginTop: "10px", marginBottom: "10px" }}>
         <Button
           className="about-button-link"
-          variant="primary"
+          variant="outline-info"
+          size= "lg"
           href={"/about"}
           target="_self"
           style={{ maxWidth: "250px" }}
@@ -19,7 +20,8 @@ function HomeButtons() {
       <div style={{marginTop: "10px", marginBottom: "10px" }}>
         <Button
           className="projects-button-link"
-          variant="primary"
+          variant="outline-info"
+          size= "lg"
           href={"/projects"}
           target="_self"
           style={{ maxWidth: "250px" }}
