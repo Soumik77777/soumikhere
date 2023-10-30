@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 
 function Home() {
   function jahok(){
-    document.querySelector(".button").addEventListener("click", ()=>{
+    document.querySelector(".about-button-link").addEventListener("click", ()=>{
       window.location("https://soumikhere.vercel.app/about");
     })
   }
@@ -43,7 +43,6 @@ function Home() {
               <Button 
                 className="about-button-link"
                 variant="primary"
-                href="https://soumikhere.vercel.app/about"
                 target="_self"
                 style={{ maxWidth: "250px" }}
               >
