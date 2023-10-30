@@ -42,7 +42,7 @@ function Home() {
               </p>
               
 
-              <div style={{marginLeft: "50px", padding: 50, textAlign: "left" }}>
+              <div style={{marginLeft: "0px", padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
 
