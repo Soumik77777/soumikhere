@@ -26,7 +26,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                <strong className="main-name">Soumik</strong>
+                <strong className="main-name">Soumik </strong>
                 this side.
               </h1>
 
@@ -41,8 +41,20 @@ function Home() {
                 Know more about myself 
               </a>
 
-              <a href="https://soumikhere.vercel.app/about">
+              <a 
+                href="https://soumikhere.vercel.app/about">
                 <button class="btn btn-primary btn-lg">Click</button>
+              </a>
+
+              <a class="custom-button" href="https://your-link-here.com">
+                <span class="button-content">
+                  <span class="button-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+                      <path d="M6.125 1088h1797.89l-402.976 403 89.994 90L2048 1024l-556.966-557-89.994 90 402.976 403H6.125v128z"></path>
+                    </svg>
+                  </span>
+                  <span class="button-text">Your Button Text</span>
+                </span>
               </a>
 
               <div style={{ padding: 50, textAlign: "left" }}>
