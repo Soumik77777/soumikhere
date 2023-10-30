@@ -13,7 +13,7 @@ function HomeButtons() {
           backgroundColor: "#ffff00",
           color: "#000000",
           width: "325px",
-          margin: "80px 0px 80px 200px", // Adjust margin as needed
+          margin: "80px 0px 80px 100px", // Adjust margin as needed
         };
 
         <Button
@@ -53,7 +53,7 @@ function HomeButtons() {
           backgroundColor: "#ffff00",
           color: "#000000",
           width: "325px",
-          margin: "80px 200px 80px 0px", // Adjust margin as needed
+          margin: "80px 100px 80px 0px", // Adjust margin as needed
         };
 
         <Button
