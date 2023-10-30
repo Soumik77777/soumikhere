@@ -33,7 +33,7 @@ function Home() {
                 this side.
               </h1>
 
-              <p style={{marginLeft: "50px", marginBottom: "40px"}} className="home-intro">
+              <p style={{marginLeft: "50px", marginBottom: "40px", fontSize: "16px"}} className="home-intro">
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
               </p>          
 
