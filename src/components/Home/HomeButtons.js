@@ -3,14 +3,14 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./HomeButtons.css";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { BsFillArrowRightCircleFill} from "react-icons/bs"
 
 function HomeButtons() {
   const buttonStyle = {
     backgroundColor: "#ffff00",
     color: "#000000",
     width: "325px",
-    margin: "80px 200px", // 80px on top and bottom, 200px on left and right
+    margin: "80px 200px",
   };
 
   return (
@@ -28,7 +28,7 @@ function HomeButtons() {
         </Button>
       </Col>
 
-      <Col sm={4">
+      <Col sm={4}>
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
@@ -41,7 +41,7 @@ function HomeButtons() {
         </Button>
       </Col>
 
-      <Col sm={4">
+      <Col sm={4}>
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
