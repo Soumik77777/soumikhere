@@ -34,28 +34,15 @@ function Home() {
               I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
             </p>
 
-              <a
-                href="https://soumikhere.vercel.app/about"
-                className="button"
+              <Button
+                variant="primary"
+                href={"https://soumikhere.vercel.app/about"}
+                target="_self"
+                style={{ maxWidth: "250px" }}
               >
-                Know more about myself 
-              </a>
+                Know more about myself
+              </Button>
 
-              <a 
-                href="https://soumikhere.vercel.app/about">
-                <button class="btn btn-primary btn-lg">Click</button>
-              </a>
-
-              <a class="custom-button" href="https://your-link-here.com">
-                <span class="button-content">
-                  <span class="button-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
-                      <path d="M6.125 1088h1797.89l-402.976 403 89.994 90L2048 1024l-556.966-557-89.994 90 402.976 403H6.125v128z"></path>
-                    </svg>
-                  </span>
-                  <span class="button-text">Your Button Text</span>
-                </span>
-              </a>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
