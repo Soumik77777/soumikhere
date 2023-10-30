@@ -30,15 +30,19 @@ function Home() {
                 this side.
               </h1>
 
-              <h1 className="heading">
-                I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
-              </h1>
+              <p className="home-intro">
+              I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
+            </p>
 
               <a
                 href="https://soumikhere.vercel.app/about"
                 className="button"
               >
-                Explore More
+                Know more about myself 
+              </a>
+
+              <a href="https://soumikhere.vercel.app/about">
+                <button class="btn btn-primary btn-lg">Click</button>
               </a>
 
               <div style={{ padding: 50, textAlign: "left" }}>
