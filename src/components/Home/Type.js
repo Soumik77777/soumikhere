@@ -3,8 +3,9 @@ import "./Type.css";
 
 function Type() {
   const [text, setText] = useState("");
-  const fullText = "Astrophysics, Planetary Sciences, Machine Learning & AI";
-
+  const fullText =
+    "Astrophysics, \nPlanetary, \nMachine Learning & AI";
+    
   useEffect(() => {
     let currentIndex = 0;
 

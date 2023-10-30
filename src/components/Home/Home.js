@@ -37,7 +37,12 @@ function Home() {
                 This is the place where I talk about my interests, experiences and ideas. Feel free to connect!
               </p>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <p style={{marginLeft: "50px", marginBottom: "40px", fontSize: "1.5em"}} className="home-intro">
+                My interests include...
+              </p>
+              
+
+              <div style={{ padding: 0, textAlign: "left" }}>
                 <Type />
               </div>
 
