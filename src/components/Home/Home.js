@@ -35,14 +35,13 @@ function Home() {
 
               <p style={{marginLeft: "50px", marginBottom: "40px", fontSize: "1.5em"}} className="home-intro">
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
-              </p>    
+              </p>      
 
-              <HomeButtons style={{ zIndex: 1 }}/>      
-
-
+              {/*
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-              </div>
+            </div>*/}
+
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -55,8 +54,9 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <HomeButtons />
       </Container>
-      <HomeButtons />
+      
       <Home2 />
     </section>
     
