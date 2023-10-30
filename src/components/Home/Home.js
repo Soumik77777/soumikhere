@@ -5,9 +5,13 @@ import About from "../../components/About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import HomeButtons from "./HomeButtons";
 
 function Home() {
+  function jahok(){
+    document.querySelector(".button").addEventListener("click", ()=>{
+      window.location("https://soumikhere.vercel.app/about");
+    })
+  }
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -35,10 +39,17 @@ function Home() {
               <p className="home-intro">
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
               </p>
+              <Button 
+                className="about-button-link"
+                variant="primary"
+                href="https://soumikhere.vercel.app/about"
+                target="_self"
+                style={{ maxWidth: "250px" }}
+              >
+                Know more about myself
+              </Button>              
 
-              <div>
-                <HomeButtons />
-              </div>
+            
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
