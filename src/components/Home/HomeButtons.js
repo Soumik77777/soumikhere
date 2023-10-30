@@ -6,16 +6,30 @@ import "./HomeButtons.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 function HomeButtons() {
+  const aboutButtonStyle = {
+    backgroundColor: "#ffff00",
+    color: "#000000",
+    width: "325px",
+    margin: "80px 0px 80px 100px", // Adjust margin as needed
+  };
+
+  const projectsButtonStyle = {
+    backgroundColor: "#ffff00",
+    color: "#000000",
+    width: "325px",
+    margin: "80px 0px 80px 0px", // Adjust margin as needed
+  };
+
+  const blogButtonStyle = {
+    backgroundColor: "#ffff00",
+    color: "#000000",
+    width: "325px",
+    margin: "80px 100px 80px 0px", // Adjust margin as needed
+  };
+
   return (
     <Row>
       <Col sm={4}>
-        const aboutButtonStyle = {
-          backgroundColor: "#ffff00",
-          color: "#000000",
-          width: "325px",
-          margin: "80px 0px 80px 100px", // Adjust margin as needed
-        };
-
         <Button
           className="about-button-link custom-button"
           variant="outline-info"
@@ -29,13 +43,6 @@ function HomeButtons() {
       </Col>
 
       <Col sm={4}>
-        const projectsButtonStyle = {
-          backgroundColor: "#ffff00",
-          color: "#000000",
-          width: "325px",
-          margin: "80px 0px 80px 0px", // Adjust margin as needed
-        };
-
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
@@ -49,13 +56,6 @@ function HomeButtons() {
       </Col>
 
       <Col sm={4}>
-        const blogButtonStyle = {
-          backgroundColor: "#ffff00",
-          color: "#000000",
-          width: "325px",
-          margin: "80px 100px 80px 0px", // Adjust margin as needed
-        };
-
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
