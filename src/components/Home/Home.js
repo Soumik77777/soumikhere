@@ -42,7 +42,7 @@ function Home() {
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
               >
-                <FaLinkedinIn />
+                Know more
               </a>
 
 
