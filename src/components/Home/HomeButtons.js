@@ -3,27 +3,31 @@ import Button from "react-bootstrap/Button";
 
 function HomeButtons() {
   return (
-    <container> 
-      <Button 
-        className="about-button-link"
-        variant="primary"
-        href={"/about"}
-        target="_self"
-        style={{ maxWidth: "250px" }}
-      >
-        Know more about myself
-      </Button>
+    <div>
+      <div style={{ marginTop: "10px", marginBottom: "10px" }}>
+        <Button
+          className="about-button-link"
+          variant="primary"
+          href={"/about"}
+          target="_self"
+          style={{ maxWidth: "250px" }}
+        >
+          Know more about myself
+        </Button>
+      </div>
 
-      <Button 
-      className="projects-button-link"
-      variant="primary"
-      href={"/projects"}
-      target="_self"
-      style={{ maxWidth: "250px" }}
-      >
-      Know more about myself
-      </Button>
-    </container>  
+      <div style={{marginTop: "10px", marginBottom: "10px" }}>
+        <Button
+          className="projects-button-link"
+          variant="primary"
+          href={"/projects"}
+          target="_self"
+          style={{ maxWidth: "250px" }}
+        >
+          Know more about my research
+        </Button>
+      </div>
+    </div>
   );
 }
 
