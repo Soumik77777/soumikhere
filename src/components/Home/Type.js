@@ -3,9 +3,8 @@ import "./Type.css";
 
 function Type() {
   const [text, setText] = useState("");
-  const fullText =
-    "Astrophysics, \nPlanetary, \nMachine Learning & AI";
-    
+  const fullText = "Astrophysics,<br />Planetary Sciences,<br />Machine Learning & AI";
+
   useEffect(() => {
     let currentIndex = 0;
 
@@ -21,7 +20,9 @@ function Type() {
     return () => clearInterval(interval);
   }, []);
 
-  return <div className="typing-effect">{text}</div>;
+  return (
+    <div className="typing-effect" style={{ fontSize: "24px", color: "#cd5ff8" }} dangerouslySetInnerHTML={{ __html: text }} />
+  );
 }
 
 export default Type;
