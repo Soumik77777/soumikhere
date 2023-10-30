@@ -22,13 +22,24 @@ function Home() {
               </h1> */}
               
               <h1 className="heading">
-                Hi!
+                Hi there!
               </h1>
 
               <h1 className="heading-name">
-                I'm
-                <strong className="main-name"> Soumik Bhattacharyya</strong>
+                <strong className="main-name">Soumik</strong>
+                this side.
               </h1>
+
+              <h1 className="heading">
+                I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
+              </h1>
+
+              <a
+                href="https://soumikhere.vercel.app/about"
+                className="button"
+              >
+                Explore More
+              </a>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
