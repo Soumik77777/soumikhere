@@ -28,12 +28,12 @@ function Home() {
                 Hi there!
               </h1>
 
-              <h1 style={{marginLeft: "2px"}} className="heading-name">
+              <h1 style={{marginLeft: "2px", marginBottom: "20px"}} className="heading-name">
                 <strong className="main-name">Soumik </strong>
                 this side.
               </h1>
 
-              <p style={{marginLeft: "50px"}} className="home-intro">
+              <p style={{marginLeft: "50px", marginBottom: "40px"}} className="home-intro">
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
               </p>          
 
