@@ -32,13 +32,13 @@ function Home() {
               </h1>
 
               <p className="home-intro">
-              I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
-            </p>
+                I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
+              </p>
 
               <Button
                 variant="primary"
                 href={"https://soumikhere.vercel.app/about"}
-                target="_self"
+                target="_blank"
                 style={{ maxWidth: "250px" }}
               >
                 Know more about myself
