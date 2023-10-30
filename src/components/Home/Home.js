@@ -5,6 +5,7 @@ import About from "../../components/About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Button from "react-bootstrap/Button";
 
 function Home() {
   function jahok(){
