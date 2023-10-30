@@ -36,7 +36,15 @@ function Home() {
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in the interesting domains of machine learning and artificial intelligence.
               </p>
 
-              <a class="btn-blue" href="#">Get The App</a>
+              <Button 
+                className="button-link"
+                variant="primary"
+                href={"https://soumikhere.vercel.app/about"}
+                target="_self"
+                style={{ maxWidth: "250px" }}
+              >
+                Know more about myself
+              </Button>
 
 
               <div style={{ padding: 50, textAlign: "left" }}>

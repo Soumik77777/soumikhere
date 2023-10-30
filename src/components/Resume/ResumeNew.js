@@ -30,8 +30,7 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-
-        <a class="btn-blue" href="#">Get The App</a>
+        
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
