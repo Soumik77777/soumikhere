@@ -11,7 +11,6 @@ function Home() {
   function jahok(){
       window.location.href("https://soumikhere.vercel.app/about")
     }
-  }
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -42,6 +41,7 @@ function Home() {
 
               <Button 
                 className="about-button-link"
+                onClick={jahok}
                 variant="primary"
                 href="https://soumikhere.vercel.app/about"
                 target="_self"
