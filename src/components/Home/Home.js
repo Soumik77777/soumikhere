@@ -33,7 +33,7 @@ function Home() {
                 this side.
               </h1>
 
-              <p className="home-intro">
+              <p className="home-intro" md={7}>
                 I am passionate about exploring the diverse realms of astronomy. Recently, I have also taken an interest in different domains of machine learning and artificial intelligence.
               </p>          
 
