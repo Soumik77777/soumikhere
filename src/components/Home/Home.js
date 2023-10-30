@@ -9,9 +9,8 @@ import Type from "./Type";
 
 function Home() {
   function jahok(){
-    document.querySelector(".about-button-link").addEventListener("click", ()=>{
-      window.location.href("")
-    })
+      window.location.href("https://soumikhere.vercel.app/about")
+    }
   }
   return (
     <section>
