@@ -95,13 +95,14 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="#Contact-me-link"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="#Contact-me-link"
+                onClick={() => updateExpanded(false)}
               >
                 <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
+
 
             {/* 
             <Nav.Item>
