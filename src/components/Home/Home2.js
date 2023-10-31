@@ -70,8 +70,14 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
+
+            <h1 id="Contact-me-link">DROP AN EMAIL</h1>
+            <p>
+              @soumik.bhattacharyya@niser.ac.in (Institution)
+              @soumikbhattacharyya68@gmail.com (Personal)
+            </p>
             
-            <h1 id="Contact-me-link">FIND ME ON</h1>
+            <h3>FIND ME ON</h3>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
