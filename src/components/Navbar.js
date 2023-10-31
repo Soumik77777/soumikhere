@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex">
-          <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+          <AiOutlineHome /> Home
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
