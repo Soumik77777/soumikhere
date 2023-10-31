@@ -76,15 +76,15 @@ function Home2() {
 
             <p style={{ marginBottom: "20px" }}>
               <i style={{ marginBottom: "10px" }}>
-                <span className="purple">@soumik.bhattacharyya@niser.ac.in</span>
+                <span className="purple">@soumik.bhattacharyya@niser.ac.in </span>
               </i>  (Institution)
               <br />
-              <i style={{ marginBottom: "20px" }}>
-                <span className="purple">@soumikbhattacharyya68@gmail.com</span>
+              <i style={{ marginBottom: "40px" }}>
+                <span className="purple">@soumikbhattacharyya68@gmail.com </span>
               </i>  (Personal)
             </p>
 
-            <h1 style={{ marginTop: "20px" }}>FIND ME ON</h1>
+            <h1 style={{ marginTop: "40px" }}>FIND ME ON</h1>
 
             <ul className="home-about-social-links">
               <li className="social-icons">
