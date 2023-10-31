@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMail,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -98,7 +99,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Contact Me
+                <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
 
