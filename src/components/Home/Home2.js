@@ -74,14 +74,12 @@ function Home2() {
 
             <h1 id="Contact-me-link">DROP AN EMAIL</h1>
             <p>
-              @soumik.bhattacharyya@niser.ac.in (Institution)
-              @soumikbhattacharyya68@gmail.com (Personal)
+              <i> <span className="purple">@soumik.bhattacharyya@niser.ac.in</span></i>  (Institution)
+              <br />
+              <i> <span className="purple">@soumikbhattacharyya68@gmail.com</span></i>  (Personal)
             </p>
             
-            <h3>FIND ME ON</h3>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1>FIND ME ON</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
