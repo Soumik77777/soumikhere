@@ -16,7 +16,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Fork the{" "}
+            Fork{" "}
             <a
               href="https://github.com/soumyajit4419/Portfolio"
               target="_blank"

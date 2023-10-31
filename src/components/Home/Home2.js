@@ -72,14 +72,20 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
 
-            <h1 id="Contact-me-link">DROP AN EMAIL</h1>
-            <p>
-              <i> <span className="purple">@soumik.bhattacharyya@niser.ac.in</span></i>  (Institution)
+            <h1 id="Contact-me-link" style={{marginTop: "40px", marginBottom: "20px" }}>DROP AN EMAIL</h1>
+
+            <p style={{ marginBottom: "20px" }}>
+              <i style={{ marginBottom: "10px" }}>
+                <span className="purple">@soumik.bhattacharyya@niser.ac.in</span>
+              </i>  (Institution)
               <br />
-              <i> <span className="purple">@soumikbhattacharyya68@gmail.com</span></i>  (Personal)
+              <i style={{ marginBottom: "20px" }}>
+                <span className="purple">@soumikbhattacharyya68@gmail.com</span>
+              </i>  (Personal)
             </p>
-            
-            <h1>FIND ME ON</h1>
+
+            <h1 style={{ marginTop: "20px" }}>FIND ME ON</h1>
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
