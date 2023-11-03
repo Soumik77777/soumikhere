@@ -15,7 +15,7 @@ function HomeButtons() {
 
   return (
     <Row className="custom-button-row">
-      <Col sm={4} xs={12}>
+      <Col sm={3} xs={12}>
         <Button
           className="about-button-link custom-button"
           variant="outline-info"
@@ -28,7 +28,7 @@ function HomeButtons() {
         </Button>
       </Col>
 
-      <Col sm={4} xs={12}>
+      <Col sm={3} xs={12}>
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
@@ -41,7 +41,7 @@ function HomeButtons() {
         </Button>
       </Col>
 
-      <Col sm={4} xs={12}>
+      <Col sm={3} xs={12}>
         <Button
           className="blogs-button-link custom-button"
           variant="outline-info"
