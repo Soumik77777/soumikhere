@@ -15,7 +15,7 @@ function HomeButtons() {
 
   return (
     <Row className="custom-button-row">
-      <Col sm={3} xs={12}>
+      <Col sm={3} xs={12} className="custom-margin-sm">
         <Button
           className="about-button-link custom-button"
           variant="outline-info"
