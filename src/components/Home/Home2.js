@@ -29,15 +29,6 @@ function Home2() {
                 <b className="purple"> C++, Javascript and Go. </b>
               </i>
               <br />
-              <Button 
-                className="about-button-link"
-                variant="primary"
-                href={"https://soumikhere.vercel.app/about"}
-                target="_self"
-                style={{ maxWidth: "250px" }}
-              >
-                Know more about myself
-              </Button>
               <br />
               My field of Interest's are building new &nbsp;
               <i>

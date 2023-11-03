@@ -1,69 +1,55 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import "./HomeButtons.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 function HomeButtons() {
-  const aboutButtonStyle = {
+  const buttonStyle = {
     backgroundColor: "#ffff00",
     color: "#000000",
-    width: "325px",
-    margin: "80px 0px 80px 80px", // Adjust margin as needed
-  };
-
-  const projectsButtonStyle = {
-    backgroundColor: "#ffff00",
-    color: "#000000",
-    width: "325px",
-    margin: "80px 0px 80px 0px", // Adjust margin as needed
-  };
-
-  const blogButtonStyle = {
-    backgroundColor: "#ffff00",
-    color: "#000000",
-    width: "325px",
-    margin: "80px 80px 80px 0px", // Adjust margin as needed
+    width: "100%", // Full width for mobile
+    margin: "0px 0px 20px 0px", // Adjust margin as needed
   };
 
   return (
     <Row>
-      <Col sm={4}>
+      <Col sm={4} xs={12}>
         <Button
           className="about-button-link custom-button"
           variant="outline-info"
           size="lg"
           href={"/about"}
           target="_self"
-          style={aboutButtonStyle}
+          style={buttonStyle}
         >
           Learn about me <BsFillArrowRightCircleFill />
         </Button>
       </Col>
 
-      <Col sm={4}>
+      <Col sm={4} xs={12}>
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
           size="lg"
           href={"/projects"}
           target="_self"
-          style={projectsButtonStyle}
+          style={buttonStyle}
         >
           Read about my research <BsFillArrowRightCircleFill />
         </Button>
       </Col>
 
-      <Col sm={4}>
+      <Col sm={4} xs={12}>
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
           size="lg"
           href={"#"}
-          target="_self"
+          target="_blank"
           disabled
-          style={blogButtonStyle}
+          style={buttonStyle}
         >
           Blog posts (coming...)
         </Button>
