@@ -11,6 +11,6 @@
   
   @media (min-width: 992px) {
     .custom-button-row {
-      margin: 0 40px; /* Adjust the margin as needed for laptop screens */
+      margin: 0 100px; /* Adjust the margin as needed for laptop screens */
     }
   }
