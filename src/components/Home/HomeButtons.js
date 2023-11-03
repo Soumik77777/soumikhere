@@ -10,7 +10,7 @@ function HomeButtons() {
     backgroundColor: "#ffff00",
     color: "#000000",
     width: "100%",
-    margin: "20px 40px",
+    margin: "0px 0px",
   };
 
   return (
