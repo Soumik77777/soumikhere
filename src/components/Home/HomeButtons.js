@@ -7,7 +7,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 function HomeButtons() {
   return (
-    <Row className="custom-button-row">
+    <Row className="justify-content-around custom-button-row">
       <Col sm={3} xs={12} className="custom-margin-about">
         <Button
           className="about-button-link custom-button"
