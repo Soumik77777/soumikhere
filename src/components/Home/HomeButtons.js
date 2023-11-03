@@ -10,7 +10,7 @@ function HomeButtons() {
     backgroundColor: "#ffff00",
     color: "#000000",
     width: "100%",
-    margin: "0px 20px",
+    margin: "20px 40px",
   };
 
   return (
@@ -43,7 +43,7 @@ function HomeButtons() {
 
       <Col sm={4} xs={12}>
         <Button
-          className="projects-button-link custom-button"
+          className="blogs-button-link custom-button"
           variant="outline-info"
           size="lg"
           href={"#"}
