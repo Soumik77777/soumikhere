@@ -1,20 +1,54 @@
 /* HomeButtons.css */
 .custom-button {
-  width: 100%;
-  margin: 0 0;
+  width: 60%;
+  margin: 0;
   transition: all 0.2s;
+  background-color: #ffff00;
+  color: #000000;
 }
 
 .custom-button:hover {
   transform: scale(1.1);
 }
 
-.custom-margin-sm {
+
+
+.custom-margin-about {
   margin-left: 20px;
+  margin-right: 0px;
 }
 
 @media (max-width: 576px) {
-  .custom-margin-sm {
-    margin-left: 0; /* Reset the margin for xs screens */
+  .custom-margin-about {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
+
+
+
+.custom-margin-research {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+  .custom-margin-research {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+
+.custom-margin-blogs {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+  .custom-margin-blogs {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+

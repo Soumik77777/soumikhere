@@ -6,42 +6,33 @@ import "./HomeButtons.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 function HomeButtons() {
-  const buttonStyle = {
-    backgroundColor: "#ffff00",
-    color: "#000000",
-    width: "80%",
-    margin: "50px 50px",
-  };
-
   return (
     <Row className="custom-button-row">
-      <Col sm={3} xs={12} className="custom-margin-sm">
+      <Col sm={4} xs={12} className="custom-margin-about">
         <Button
           className="about-button-link custom-button"
           variant="outline-info"
           size="lg"
           href={"/about"}
           target="_self"
-          style={buttonStyle}
         >
           Learn about me <BsFillArrowRightCircleFill />
         </Button>
       </Col>
 
-      <Col sm={3} xs={12}>
+      <Col sm={4} xs={12} className="custom-margin-research">
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
           size="lg"
           href={"/projects"}
           target="_self"
-          style={buttonStyle}
         >
           Read about my research <BsFillArrowRightCircleFill />
         </Button>
       </Col>
 
-      <Col sm={3} xs={12}>
+      <Col sm={4} xs={12} className="custom-margin-research"> 
         <Button
           className="blogs-button-link custom-button"
           variant="outline-info"
@@ -49,7 +40,6 @@ function HomeButtons() {
           href={"#"}
           target="_blank"
           disabled
-          style={buttonStyle}
         >
           Blog posts (coming...)
         </Button>
