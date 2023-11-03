@@ -14,7 +14,7 @@ function HomeButtons() {
   };
 
   return (
-    <Row>
+    <Row className="custom-button-row">
       <Col sm={4} xs={12}>
         <Button
           className="about-button-link custom-button"
