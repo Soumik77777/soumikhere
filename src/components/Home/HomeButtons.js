@@ -9,13 +9,13 @@ function HomeButtons() {
   const buttonStyle = {
     backgroundColor: "#ffff00",
     color: "#000000",
-    width: "100%", // Full width for mobile
-    margin: "0px 0px 20px 0px", // Adjust margin as needed
+    width: "80%",
+    margin: "0px 0px 20px 0px",
   };
 
   return (
     <Row>
-      <Col sm={4} xs={12}>
+      <Col sm={4} xs={8}>
         <Button
           className="about-button-link custom-button"
           variant="outline-info"
@@ -28,7 +28,7 @@ function HomeButtons() {
         </Button>
       </Col>
 
-      <Col sm={4} xs={12}>
+      <Col sm={4} xs={8}>
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
@@ -41,7 +41,7 @@ function HomeButtons() {
         </Button>
       </Col>
 
-      <Col sm={4} xs={12}>
+      <Col sm={4} xs={8}>
         <Button
           className="projects-button-link custom-button"
           variant="outline-info"
