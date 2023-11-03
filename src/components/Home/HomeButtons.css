@@ -1,7 +1,6 @@
 /* HomeButtons.css */
 .custom-button {
   width: 100%;
-  margin: 0;
   transition: all 0.2s;
   background-color: #ffff00 !important;
   color: #000000 !important;
@@ -14,41 +13,52 @@
 
 
 .custom-margin-about {
-  margin-left: 20px;
+  margin-left: 50px;
   margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 576px) {
   .custom-margin-about {
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
 
-
 .custom-margin-research {
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 576px) {
   .custom-margin-research {
-    margin-left: 0;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
 
 .custom-margin-blogs {
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 576px) {
   .custom-margin-blogs {
     margin-left: 0;
     margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
