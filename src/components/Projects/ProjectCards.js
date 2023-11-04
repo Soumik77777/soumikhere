@@ -13,6 +13,7 @@ function ProjectCards(props) {
 
   return (
     <Card className="project-card-view">
+      {props.header && <Card.Header style={{textAlign: "left"}}>{props.header}</Card.Header>}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title style={{ textAlign: "left", marginBottom: "10px"}}>{props.title}</Card.Title>
