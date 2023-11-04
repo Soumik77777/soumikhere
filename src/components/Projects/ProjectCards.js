@@ -14,7 +14,7 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       {props.header && <Card.Header style={{
-        fontSize: "1em",
+        fontSize: "0.9em",
         textAlign: "left",
         marginBottom: "20px",
         borderBottom: "1px solid #6B2589"
