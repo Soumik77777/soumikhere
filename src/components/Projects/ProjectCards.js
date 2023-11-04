@@ -19,7 +19,7 @@ function ProjectCards(props) {
         }}>{props.header}</Card.Header>}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title style={{ textAlign: "left", marginBottom: "20px", color: "#ffffc2"}}>{props.title}</Card.Title>
+        <Card.Title style={{ textAlign: "left", marginBottom: "20px", color: "#ffffff"}}>{props.title}</Card.Title>
         {props.subtitle && (
           <Card.Subtitle className="mb-2 text-muted" style={{textAlign: "left", marginBottom: "40px" }}>{props.subtitle}</Card.Subtitle>
         )}
@@ -50,14 +50,37 @@ function ProjectCards(props) {
             </span>
           )}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
+
+        <Button 
+        variant="primary"
+        href={props.link}
+        target="_blank"
+        style = {{marginLeft: "10px", marginRight: "10px"}}
+        >
+          {props.linktext}
+        </Button>
+
+        <Button 
+        variant="primary"
+        href={props.link2}
+        target="_blank"
+        style = {{marginLeft: "10px", marginRight: "10px"}}
+        >
+          {props.linktext2}
+        </Button>
+
+        
+        
+        {/*}
+        <Button variant="primary"
+        href={props.ghLink}
+        target="_blank"
+        >
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
         {"\n"}
         {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
           <Button
@@ -70,6 +93,9 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+        */}
+
+
       </Card.Body>
     </Card>
   );
