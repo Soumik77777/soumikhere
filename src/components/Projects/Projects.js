@@ -31,8 +31,11 @@ function Projects() {
               subtitle="M.Sc. Dissertation Project, 2022-Now"
               description="Common Envelope (CE) is a significant yet poorly understood process in the evolution of binary star systems. Observing CE directly is practically impossible due to its short duration, and simulating it computationally poses challenges due to computational demands and the diverse nature of binary systems undergoing CE. This research focuses on analyzing a simulated binary system, with an Asymptotic Giant Branch (AGB) star as the primary core and a companion star of equal mass. The simulation extends for approximately 40 orbital revolutions, although a stationary orbit is not achieved. The study investigates the drag force exerted by gas particles on the secondary mass and compares it to previous simulation-based works. Additionally, the torque applied to both stars by the gas medium is calculated and analyzed. Furthermore, the research evaluates the torque exerted by a certain percentage of gas and determines the amount of gas required to achieve a comparable torque to the total torque. The study then aims to model the torque exerted on the stars by treating the bulk of gas inside the equidensity surface as a homogeneous and prolate ellipsoidal body. By parameterizing the ellipsoid and obtaining the semi-axes (A, B, C) and the lag angle between the binary system axis and the major axis of the ellipsoid ($\Delta \phi$), the torque applied to both stars within the bulk of gas is calculated from the potential energy inside the fitted ellipsoid. The calculated torque is found to be consistent with the torque calculated from the drag force. Moreover, an expression for the binary separation is developed and successfully modeled within the timescale of evolution."
               
+              islink = {true}
               linktext= "M.Sc. Dissertation"
               link= "https://drive.google.com/file/d/15JPmTKjMHtcsx8o5kLTbEWiae_Y7AgbY/view?usp=sharing"
+
+              islink2={false}
             />
           </Col>
 
@@ -45,8 +48,11 @@ function Projects() {
 
               description="Current methods of retrieving atmospheric profiles using satellite data involves  certain physical assumptions subjected to initial conditions and boundary. In our project, we want to use machine learning to model the relation between brightness temperature (BT), which can be directly obtained from real time satellite data, with actual pressure-temperature (PT) and water vapor (wv) profiles. We used 25000 different PT and WV profiles from ECMWF data library and corresponding BT arrays along with latitude and longitude as two other parameters. We found out that the models based on Random Forest Regressor and Multilayer Perceptron (MLP), a supervised neural network based model, works best for our data. After tuning the hyperparameters, Random Forest reaches accuracies of $97.24\%$ and $82.05\%$ respectively for PT and WV profiles, when trained separately. However, it also tends to overfit the data. In case of MLP, the accuracies for predicting PT and WV profiles are respectively $92.2\%$ and $81.7\%$, with much less of a risk of overfitting."
 
+              islink = {true}
               link="https://drive.google.com/file/d/1k7-tIxmLcxW-yFxoFOxcUvQM2uc7TRZY/view?usp=drive_link"
               linktext="Report"
+
+              islink2={false}
             />
           </Col>
 
@@ -59,8 +65,11 @@ function Projects() {
 
               description="Will be added"
 
+              islink = {true}
               link="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec20.pdf"
               linktext="Report"
+
+              islink2={false}
             />
           </Col>
 
@@ -73,8 +82,11 @@ function Projects() {
 
               description="Will be added"
 
-              //link="https://drive.google.com/file/d/1k7-tIxmLcxW-yFxoFOxcUvQM2uc7TRZY/view?usp=drive_link"
+              islink = {false}
+              //link=""
               //linktext="Website"
+
+              islink2={false}
             />
           </Col>
 
@@ -87,8 +99,11 @@ function Projects() {
 
               description="Named after astronomer Edwin Hubble, the Hubble Space Telescope is a large, space-based observatory, launched by the space shuttle Discovery in 1990. Over the course of five astronaut servicing missions, cutting-edge scientific instruments have been added to the telescope which have grown Hubble’s capabilities immensely in its over 30 years of operation. The HST’s discoveries have revolutionized astronomy. Observations of Cepheid variables in nearby galaxies allowed the first accurate determination of Hubble’s constant, which is the rate of the universe’s expansion. The HST photographed young stars with disks that will eventually become planetary systems. The Hubble Deep Field, a photograph of about 1,500 galaxies, revealed galactic evolution over nearly the entire history of the universe. Within the solar system, the HST was also used to discover Hydra and Nix, two moons of the dwarf planet Pluto. Hubble has made more than 1.4 million observations over the course of its lifetime. Over 18,000 peer-reviewed science papers have been published on its discoveries, and every current astronomy textbook includes contributions from the observatory."
 
+              islink = {true}
               link="https://drive.google.com/file/d/110GlIGv7b6jmuUq-AbgW82ncNEUfO_mo/view?usp=drive_link"
               linktext="Report"
+
+              islink2={false}
             />
           </Col>
 
@@ -101,9 +116,11 @@ function Projects() {
 
               description="We analyse S-band radar data of Venusian Surface obtained by ground based Arecibo Observatory to interpret the interrelation of radar-echoes in two orthogonal polarization states. We focus our area of interest to Maxwell Montes, the highest and steepest mountain range of Venus, which is also associated with possibilities of finding a past water-rich environment. We compare the $\sigma_{OC}$ - $\sigma_{SC}$ relation with different parts of Maxwell and then with other highlands, impact meltflows, radar-bright craters and associated radar-dark parabolas. An analysis of $\sigma_{OC}$ - $\sigma_{SC}$ trends suggest a greater surface rock population and lower effective electric permittivity in northern and southern radar-bright parts of Maxwell. Further we use the data from Magellan mission (1990-1994) for surface emissivity and planetary radius to find a general relation between the two and Circular Polarization Ratio."
 
+              islink = {true}
               link="https://drive.google.com/file/d/1dyikUe0zmtW8LnqGRJ1YR6_S4eWPXk9H/view?usp=drive_link"
               linktext="Report"
 
+              islink2={true}
               linktext2= "VEXAG, 2022"
               link2= "https://ui.adsabs.harvard.edu/abs/2022LPICo2688.8014B/abstract"
             />
@@ -118,8 +135,11 @@ function Projects() {
 
               description="Will be added"
 
+              islink = {true}
               link="https://drive.google.com/file/d/1RL3p16f1zgA2jHoEhz3E-9ylbjO4vVY-/view?usp=drive_link"
               linktext="Report"
+
+              islink2={false}
             />
           </Col>
 
@@ -132,9 +152,11 @@ function Projects() {
 
               description="Will be added"
 
-              linktext="https://drive.google.com/file/d/1AZq2QUGHLe27vQVAitS7toUONRsDfZ6D/view?usp=drive_link"
-              link="Report"
+              islink={true}
+              link="https://drive.google.com/file/d/1AZq2QUGHLe27vQVAitS7toUONRsDfZ6D/view?usp=drive_link"
+              linktext="Report"
 
+              islink2={true}
               linktext2="IPSC, 2022"
               link2 = "https://drive.google.com/file/d/1s4ojwrDV6fdNUkuWJcc8mlPDqreebLKv/view?usp=drive_link"
             />
@@ -149,8 +171,11 @@ function Projects() {
 
               description="Will be added"
               
+              islink={true}
               linktext= "ICFP, 2019"
               link="https://drive.google.com/file/d/1vEX01qzCnFw9InDCv3lwANbgfC7TYPYa/view?usp=drive_link"
+
+              islink2={false}
 
             />
           </Col>

@@ -51,23 +51,27 @@ function ProjectCards(props) {
           )}
         </Card.Text>
 
-        <Button 
-        variant="primary"
-        href={props.link}
-        target="_blank"
-        style = {{marginLeft: "10px", marginRight: "10px"}}
-        >
-          {props.linktext}
-        </Button>
+        {props.islink && (
+          <Button 
+            variant="primary"
+            href={props.link}
+            target="_blank"
+            style={{ marginLeft: "10px", marginRight: "10px" }}
+          >
+            {props.linktext}
+          </Button>
+        )}
 
-        <Button 
-        variant="primary"
-        href={props.link2}
-        target="_blank"
-        style = {{marginLeft: "10px", marginRight: "10px"}}
-        >
-          {props.linktext2}
-        </Button>
+        {props.islink2 && (
+          <Button 
+            variant="primary"
+            href={props.link2}
+            target="_blank"
+            style={{ marginLeft: "10px", marginRight: "10px" }}
+          >
+            {props.linktext2}
+          </Button>
+        )}
 
         
         
