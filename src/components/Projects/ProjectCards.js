@@ -17,7 +17,7 @@ function ProjectCards(props) {
         fontSize: "0.9em",
         textAlign: "left",
         //marginBottom: "20px",
-        borderBottom: "2px solid #ffffc1"
+        borderBottom: "2px solid #371D41"
         }}>{props.header}</Card.Header>}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
