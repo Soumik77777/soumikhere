@@ -1,17 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
+  const [expanded, setExpanded] = useState(false);
+
+  const toggleDescription = () => {
+    setExpanded(!expanded);
+  };
+
   return (
     <Card className="project-card-view">
+      {props.header && <Card.Header>{props.header}</Card.Header>}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+          {expanded ? props.description : props.description.slice(0, 50)}
+          {props.description.length > 50 && !expanded && (
+            <span>
+              {" "}
+              <Button
+                variant="link"
+                size="sm"
+                onClick={toggleDescription}
+              >
+                Read more
+              </Button>
+            </span>
+          )}
+          {props.description.length > 50 && expanded && (
+            <span>
+              {" "}
+              <Button
+                variant="link"
+                size="sm"
+                onClick={toggleDescription}
+              >
+                Read less
+              </Button>
+            </span>
+          )}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
