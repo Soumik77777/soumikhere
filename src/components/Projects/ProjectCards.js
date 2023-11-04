@@ -23,8 +23,8 @@ function ProjectCards(props) {
           </div>
         )}
         <Card.Text style={{ textAlign: "justify" }}>
-          {expanded ? props.description : props.description.slice(0, 50)}
-          {props.description.length > 50 && !expanded && (
+          {expanded ? props.description : props.description.slice(0, 300)}
+          {props.description.length > 300 && !expanded && (
             <span>
               {" "}
               <Button
@@ -36,7 +36,7 @@ function ProjectCards(props) {
               </Button>
             </span>
           )}
-          {props.description.length > 50 && expanded && (
+          {props.description.length > 300 && expanded && (
             <span>
               {" "}
               <Button
