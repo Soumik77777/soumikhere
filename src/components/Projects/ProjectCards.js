@@ -13,10 +13,15 @@ function ProjectCards(props) {
 
   return (
     <Card className="project-card-view">
-      {props.header && <Card.Header>{props.header}</Card.Header>}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title style={{ textAlign: "left"}}>{props.title}</Card.Title>
+        {props.subtitle && (
+          <div>
+            <Card.Subtitle className="mb-2 text-muted" style={{textAlign: "left"}}>{props.subtitle}</Card.Subtitle>
+            <div style={{ marginBottom: "10px" }}></div>
+          </div>
+        )}
         <Card.Text style={{ textAlign: "justify" }}>
           {expanded ? props.description : props.description.slice(0, 50)}
           {props.description.length > 50 && !expanded && (
