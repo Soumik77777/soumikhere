@@ -16,11 +16,11 @@ function ProjectCards(props) {
       {props.header && <Card.Header style={{textAlign: "left"}}>{props.header}</Card.Header>}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title style={{ textAlign: "left", marginBottom: "10px"}}>{props.title}</Card.Title>
+        <Card.Title style={{ textAlign: "left", marginBottom: "20px", color: "#ffff00"}}>{props.title}</Card.Title>
         {props.subtitle && (
           <Card.Subtitle className="mb-2 text-muted" style={{textAlign: "left"}}>{props.subtitle}</Card.Subtitle>
         )}
-        <Card.Text style={{ textAlign: "justify", marginBottom: "20px" }}>
+        <Card.Text style={{ textAlign: "justify", marginBottom: "40px" }}>
           {expanded ? props.description : props.description.slice(0, 300)}
           {props.description.length > 300 && !expanded && (
             <span>
