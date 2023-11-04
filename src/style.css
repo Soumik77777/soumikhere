@@ -441,9 +441,14 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+
+
 /* --------- */
 /* Projects */
 /* --------- */
+
+
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -457,6 +462,10 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+}
+
+.card-header {
+  border-bottom: 2px solid #ffffff;
 }
 
 .project-card-view {
