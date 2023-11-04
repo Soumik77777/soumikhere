@@ -14,15 +14,14 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       {props.header && <Card.Header style={{
-        fontSize: "0.75em",
-        color: "#ffffc1",
+        fontSize: "1em",
         textAlign: "left",
         marginBottom: "20px",
-        borderBottom: "1px solid #ffffc1"
+        borderBottom: "1px solid #6B2589"
         }}>{props.header}</Card.Header>}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title style={{ textAlign: "left", marginBottom: "10px", color: "#ffffff"}}>{props.title}</Card.Title>
+        <Card.Title style={{ textAlign: "left", marginBottom: "10px", color: "#ffffc1"}}>{props.title}</Card.Title>
         {props.subtitle && (
           <Card.Subtitle className="mb-2 text-muted" style={{textAlign: "left", marginBottom: "60px" }}>{props.subtitle}</Card.Subtitle>
         )}
