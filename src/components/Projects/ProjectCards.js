@@ -14,17 +14,20 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       {props.header && <Card.Header style={{
+        fontSize: "0.75em",
+        color: "#ffffc1",
         textAlign: "left",
+        marginBottom: "20px",
         borderBottom: "1px solid #ffffc1"
         }}>{props.header}</Card.Header>}
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title style={{ textAlign: "left", marginBottom: "20px", color: "#ffffff"}}>{props.title}</Card.Title>
+        <Card.Title style={{ textAlign: "left", marginBottom: "10px", color: "#ffffff"}}>{props.title}</Card.Title>
         {props.subtitle && (
-          <Card.Subtitle className="mb-2 text-muted" style={{textAlign: "left", marginBottom: "40px" }}>{props.subtitle}</Card.Subtitle>
+          <Card.Subtitle className="mb-2 text-muted" style={{textAlign: "left", marginBottom: "60px" }}>{props.subtitle}</Card.Subtitle>
         )}
         <Card.Text style={{ textAlign: "justify"}}>
-          {expanded ? props.description : props.description.slice(0, 300)}
+          {expanded ? props.description : `${props.description.slice(0, 300)}...`}
           {props.description.length > 300 && !expanded && (
             <span>
               {" "}
@@ -33,7 +36,7 @@ function ProjectCards(props) {
                 size="sm"
                 onClick={toggleDescription}
               >
-                ... Read more
+                Read more
               </Button>
             </span>
           )}
