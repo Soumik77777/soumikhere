@@ -16,6 +16,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
+            {" "}
             <a
               href="https://github.com/soumyajit4419/Portfolio"
               target="_blank"
