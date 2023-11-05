@@ -106,4 +106,4 @@ function AboutCards(props) {
     </Card>
   );
 }
-export default ProjectCards;
+export default AboutCards;

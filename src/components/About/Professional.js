@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import { Container, Row, Col } from "react-bootstrap";
+import Particle from "../Particle";
 import AboutCard from "./AboutCards";
 
 function ProfessionalAbout(){
