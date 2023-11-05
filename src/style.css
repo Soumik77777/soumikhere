@@ -568,6 +568,14 @@ button:focus {
   color: white !important;
 }
 
+.about-professional {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;

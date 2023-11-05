@@ -7,7 +7,7 @@ import AboutCard from "./AboutCards";
 
 function ProfessionalAbout(){
     return (
-        <Container fluid className="about-section">
+        <Container fluid className="about-professional">
             <Particle/>
             <Container>
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
