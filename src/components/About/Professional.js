@@ -9,6 +9,9 @@ function ProfessionalAbout(){
         <Container fluid className="about-section">
             <Particle/>
             <Container>
+                <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                    Professional <strong className="purple">Interests</strong>
+                </h1>
                 <Row style={{justifyContent: "center", padding: "10px" }}>
                     <Col md={7}
                     style={{
@@ -32,3 +35,5 @@ function ProfessionalAbout(){
         </Container>
     )
 }
+
+export default ProfessionalAbout;
