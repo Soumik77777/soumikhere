@@ -634,8 +634,9 @@ button:focus {
 }
 
 .quote-card-view {
-  color: white !important;
+  color: #9B7EAC !important;
   background-color: transparent !important;
+  border-left: 3px solid gray;
 }
 
 .about-activity {

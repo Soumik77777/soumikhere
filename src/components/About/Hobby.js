@@ -24,7 +24,7 @@ function PersonalAbout(){
                     <Card.Body>
                         <blockquote className="blockquote mb-0">
                         <p>
-                            Medicine, business, law, engineering- these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love- these are what we stay alive for.
+                            "Medicine, business, law, engineering- these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love- these are what we stay alive for."
                         </p>
                         <footer className="blockquote-footer" style={{textAlign: "left"}}>
                             <cite title="Dead Poets Soceity">Dead Poets Soceity, 1989</cite>
