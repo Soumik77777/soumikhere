@@ -14,7 +14,7 @@ function AboutCard() {
             I completed my master's degree in physics (2018-2023) from National Institute of Science Education and Research, Bhubaneswar and currently working there as a research assistant. Additionally, I am a co-owner and developer at TeraBh.ai.
             <br/>
             <br/>
-            
+          </p>
         </blockquote>
       </Card.Body>
     </Card>
