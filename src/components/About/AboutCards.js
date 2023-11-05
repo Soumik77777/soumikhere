@@ -12,7 +12,7 @@ function AboutCards(props) {
   };
 
   return (
-    <Card className="project-card-view">
+    <Card className="about-card-view">
       {props.header && typeof props.header === 'string' && (
         <Card.Header style={{
           fontSize: "0.9em",

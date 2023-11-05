@@ -14,7 +14,7 @@ function PersonalAbout(){
                     Personal <strong className="purple">Interests</strong>
                 </h1>
 
-                <Card>
+                <Card className="quote-card-view">
                     <Card.Body>
                         <blockquote className="blockquote mb-0">
                         <p>
