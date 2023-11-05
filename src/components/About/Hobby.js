@@ -17,6 +17,7 @@ function PersonalAbout(){
                 <Card className="quote-card-view"
                 style={{
                     borderLeft: "3px",
+                    textAlign: "left",
                     paddingLeft: "200px",
                     paddingRight: "200px"
                 }}>
@@ -25,7 +26,7 @@ function PersonalAbout(){
                         <p>
                             Medicine, business, law, engineering- these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love- these are what we stay alive for.
                         </p>
-                        <footer className="blockquote-footer">
+                        <footer className="blockquote-footer" style={{textAlign: "left"}}>
                             <cite title="Dead Poets Soceity">Dead Poets Soceity, 1989</cite>
                         </footer>
                         </blockquote>
