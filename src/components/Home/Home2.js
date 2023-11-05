@@ -16,10 +16,12 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+          <Col md={12} className="home-about-header">
+          <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+          </Col>
+          <Col md={8} className="home-about-description">
             <p className="home-about-body">
               I completed my master's degree in <i><b className="purple">physics</b></i> with a dissertation in astrophysics from NISER, HBNI and currently work there as a research assistant.
               <br/>
@@ -38,7 +40,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ marginTop: '50px' }} />
             </Tilt>
           </Col>
         </Row>
