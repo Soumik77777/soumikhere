@@ -32,9 +32,11 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-
+        
+        
         <Professional/>
-
+        
+        {/* 
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
@@ -47,6 +49,7 @@ function About() {
         <Toolstack />
 
         <Github />
+        */}
       </Container>
     </Container>
   );

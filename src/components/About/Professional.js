@@ -21,7 +21,7 @@ function ProfessionalAbout(){
                         paddingBottom: "50px",
                     }}
                     >
-                        Content 
+                        Content
                     </Col>
 
                     <Col md={5} className="project-card">
