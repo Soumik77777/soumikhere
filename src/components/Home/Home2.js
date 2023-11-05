@@ -23,19 +23,19 @@ function Home2() {
           </Col>
           <Col md={8} className="home-about-description">
             <p className="home-about-body">
-              I completed my master's degree in <i><b className="purple">physics</b></i> with a dissertation in astrophysics from NISER, HBNI and currently work there as a research assistant.
+              I completed my master's degree in <b className="purple">physics</b> with a dissertation in <b className="purple">astrophysics</b> from <b className="purple">NISER, HBNI</b> and currently work there as a research assistant.
               <br/>
               <br/>
-              In my dissertation, I have worked on common envelope evolution in AGB stars. I also have experience working in pre-processing and analysis of planetary hyperspectral and radar data.
+              In my dissertation, I have worked on <b className="purple">common envelope evolution in AGB stars</b>. I also have experience working in pre-processing and analysis of <b className="purple">planetary hyperspectral and radar data</b>.
               <br/>
               <br/>
-              My passion for machine learning extends to its applications in solving complex problems, such as natural language processing, weather forecasting, stock market prediction, and strategies.
+              My passion for <b className="purple">machine learning</b> extends to its applications in solving complex problems, such as <b className="purple">natural language processing, weather forecasting, stock market prediction, and strategies</b>.
               <br/>
               <br/>
-              I am also a co-owner and developer at TeraBh.ai, which specializes in personalized AI assistant.
+              I am also a co-owner and developer at <b className="purple">TeraBh.ai</b>, which specializes in <b className="purple">personalized AI assistant</b>.
               <br/>
               <br/>
-              I am a die-hard FC Bayern München fan and usually spend my offtime watching football. I also like to chalk out scripts for movies, and was able to complete production for a few of them.
+              I am a die-hard <b style="color: red;">FC Bayern München</b> fan and usually spend my offtime watching <b className="purple">football</b>. I also like to chalk out scripts for <b className="purple">movies</b>, and was able to complete production for a few of them.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
