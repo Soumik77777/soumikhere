@@ -21,37 +21,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I completed my master's degree in <i><b className="purple">physics</b></i> with a dissertation in astrophysics from NISER, HBNI and currently work there as a research assistant.
+              <br/>
+              <br/>
+              In my dissertation, I have worked on common envelope evolution in AGB stars. I also have experience working in pre-processing and analysis of planetary hyperspectral and radar data.
+              <br/>
+              <br/>
+              My passion for machine learning extends to its applications in solving complex problems, such as natural language processing, weather forecasting, stock market prediction, and strategies.
+              <br/>
+              <br/>
+              I am also a co-owner and developer at TeraBh.ai, which specializes in personalized AI assistant.
+              <br/>
+              <br/>
+              I am a die-hard FC Bayern München fan and usually spend my offtime watching football. I also like to chalk out scripts for movies, and was able to complete production for a few of them.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
