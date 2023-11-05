@@ -19,14 +19,14 @@ function About() {
             style={{
               justifyContent: "center",
               paddingTop: "20px",
-              paddingBottom: "50px",
+              paddingBottom: "20px",
             }}
           >
             <Aboutintro />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "80px", paddingBottom: "50px" }}
+            style={{ paddingTop: "80px", paddingBottom: "20px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
