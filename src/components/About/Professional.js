@@ -18,6 +18,8 @@ function ProfessionalAbout(){
                     textAlign: "justify",
                     fontSize:"1.2em",
                     paddingTop: "20px",
+                    paddingLeft: "10px",
+                    paddingRight: "10px",
                     }}>
                     My primary research interest lies in <span className="purple">astrophysics and planetary sciences</span>. I have explored various facets of these fields and find the following topics particularly intriguing: <span className="purple">stellar astrophysics and composition of planetary surfaces</span>.
                     <br/>
