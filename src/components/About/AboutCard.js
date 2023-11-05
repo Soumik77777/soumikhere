@@ -7,6 +7,9 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
+          <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            Know Who <strong className="purple">I'M</strong>
+          </h1>
           <p style={{ textAlign: "justify" }}>
             I am Soumik Bhattacharyya, born and raised in Bardhaman, West Bengal, India. As I grew up, I witnessed my small town transforming into a city. I come from a family of three, my parents and me.
             <br/>
@@ -14,6 +17,7 @@ function AboutCard() {
             I completed my master's degree in physics (2018-2023) from National Institute of Science Education and Research, Bhubaneswar and currently working there as a research assistant. Additionally, I am a co-owner and developer at TeraBh.ai.
             <br/>
             <br/>
+            Scroll down to know more about me and my interests!
           </p>
         </blockquote>
       </Card.Body>
