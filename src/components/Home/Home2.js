@@ -45,7 +45,7 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={6} className="home-about-social">
 
             <h1 id="Contact-me-link" style={{marginTop: "40px", marginBottom: "20px" }}>DROP AN EMAIL</h1>
 
@@ -58,6 +58,10 @@ function Home2() {
                 <span className="purple">@soumikbhattacharyya68@gmail.com </span>
               </i>  (Personal)
             </p>
+
+          </Col>
+
+          <Col md={6} className="home-about-social">
 
             <h1 style={{ marginTop: "40px" }}>FIND ME ON</h1>
 
