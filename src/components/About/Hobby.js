@@ -58,10 +58,7 @@ function PersonalAbout(){
                         <p style={{
                             textAlign: "justify", fontSize:"1.2em"
                             }}>
-                        I have an affinity for working with <span className="purple">big datasets and developing physical models</span>. I have worked on 3D simulations of <span className="purple">Common Envelope Evolution in binary systems</span>, and developed a model to calculate the torque exerted on stars by the gas envelope. The manuscript for this work is currently in preparation. Additionally, I've engaged in projects related to <span className="purple"> thermal and photometric correction and analysis of hyperspectral data from Venus (VEx/VIRTIS) and Ceres (Dawn/VIR)</span>, as well as the <span className="purple">analysis of radar data from Venus (Magellan and Arecibo Observatory)</span>.
-                        <br/>
-                        <br/>
-                        My experience working with substantial datasets has drawn me into the realm of <span className="purple">machine learning and artificial intelligence</span>. I enjoy learning about applications of machine learning techniques in complex problems. My previous work encompasses various domains, including <span className="purple">natural language processing, atmospheric sciences, and stock market prediction</span>. Within the field of machine learning, I am particularly interested in delving deeper into <span className="purple">model learning and interpretability</span>. I firmly believe that for machine learning to find its place in basic science research, models must be developed in a way that makes them physically understandable to researchers.
+                        I have a keen interest in making shortfilms and directing dramas. I have been a part of making these shortfilms, Ovab (অভাব) (href="link"), TRIUMPH (href=link); drama, Porer Upokar Korio Na (href=link); parody, Hirak Rajye Corona(হীরক রাজ্যে করোনা) (href=link); mime, Human Evolution (href=link).
                         </p>
                     </Col>
 
