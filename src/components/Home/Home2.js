@@ -47,14 +47,14 @@ function Home2() {
         <Row>
           <Col md={6} className="home-about-social">
 
-            <h1 id="Contact-me-link" style={{marginTop: "40px", marginBottom: "20px" }}><span className="purple">DROP</span> AN <span className="purple">EMAIL</span></h1>
+            <h1 id="Contact-me-link" style={{paddingTop: "40px", paddingBottom: "20px" }}><span className="purple">DROP</span> AN <span className="purple">EMAIL</span></h1>
 
-            <p style={{ marginBottom: "20px" }}>
+            <p style={{ paddingTop: "15px", paddingBottom: "50px" }}>
               <i style={{ marginBottom: "10px" }}>
                 <span className="purple">@soumik.bhattacharyya@niser.ac.in </span>
               </i>  (Institution)
               <br />
-              <i style={{ marginBottom: "40px" }}>
+              <i style={{ marginBottom: "10px" }}>
                 <span className="purple">@soumikbhattacharyya68@gmail.com </span>
               </i>  (Personal)
             </p>
@@ -63,7 +63,7 @@ function Home2() {
 
           <Col md={6} className="home-about-social">
 
-            <h1 style={{ marginTop: "40px", marginBottom:"20px" }}>FIND <span className="purple">ME</span> ON</h1>
+            <h1 style={{ paddingTop: "40px", paddingBottom:"20px" }}>FIND <span className="purple">ME</span> ON</h1>
 
             <ul className="home-about-social-links">
               <li className="social-icons">
