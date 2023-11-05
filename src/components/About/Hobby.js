@@ -14,15 +14,19 @@ function PersonalAbout(){
                     Personal <strong className="purple">Interests</strong>
                 </h1>
 
-                <Card className="quote-card-view">
+                <Card className="quote-card-view"
+                style={{
+                    borderLeft: "3px",
+                    paddingLeft: "200px",
+                    paddingRight: "200px"
+                }}>
                     <Card.Body>
                         <blockquote className="blockquote mb-0">
                         <p>
-                            {' '}
-                            Medicine, business, law, engineering- these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love- these are what we stay alive for.{' '}
+                            Medicine, business, law, engineering- these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love- these are what we stay alive for.
                         </p>
                         <footer className="blockquote-footer">
-                            Mr. John Keating, <cite title="Dead Poets Soceity">Dead Poets Soceity, 1989</cite>
+                            <cite title="Dead Poets Soceity">Dead Poets Soceity, 1989</cite>
                         </footer>
                         </blockquote>
                     </Card.Body>
