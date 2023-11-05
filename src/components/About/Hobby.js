@@ -65,7 +65,7 @@ function PersonalAbout(){
                     }}
                     >
                         <AboutCard
-                            header="Wanna make a movie together?"
+                            title="Wanna make a movie together?"
                             description="If you are genuinely interested in creating a short film or simply want to discuss the possibility, please don't hesitate to get in touch. Even if you only have an idea, feel free to reach out. I, too, often find it challenging to turn my ideas into a production, but perhaps together, we can accomplish something. Additionally, I've been planning to create an anime for quite some time, but I lack the artistic skills required for it. If you're interested in collaborating, please let me know."
                         />
                     </Col>
