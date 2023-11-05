@@ -13,7 +13,10 @@ function ProfessionalAbout(){
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                     Professional <strong className="purple">Interests</strong>
                 </h1>
-                <Row style={{justifyContent: "center", padding: "10px" }}>
+                <Row style={{
+                    justifyContent: "center",
+                    padding: "10px"
+                    }}>
                     <Col md={8}
                     style={{
                         justifyContent: "center",
@@ -21,7 +24,9 @@ function ProfessionalAbout(){
                         paddingBottom: "50px",
                     }}
                     >
-                        <p style={{textAlign: "justify"}}>
+                        <p style={{
+                            textAlign: "justify", fontSize:"1.1em"
+                            }}>
                         My primary research interest lies in astrophysics and planetary sciences. I have explored various facets of these fields and find the following topics particularly intriguing: stellar astrophysics and composition of planetary surfaces.
                         <br/>
                         <br/>
@@ -32,7 +37,7 @@ function ProfessionalAbout(){
                         </p>
                     </Col>
 
-                    <Col md={4} className="project-card"
+                    <Col md={4} className="about-card"
                     style={{
                         justifyContent: "center",
                         paddingTop: "20px",
