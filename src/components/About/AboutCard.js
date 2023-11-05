@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-            Know Who <strong className="purple">I'M</strong>
+            Know Who <strong className="purple">I'm</strong>
           </h1>
           <p style={{ textAlign: "justify" }}>
             I am Soumik Bhattacharyya, born and raised in Bardhaman, West Bengal, India. As I grew up, I witnessed my small town transforming into a city. I come from a family of three, my parents and me.
