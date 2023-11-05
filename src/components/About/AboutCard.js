@@ -8,33 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
-            <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+            I am Soumik Bhattacharyya, born and raised in Bardhaman, West Bengal, India. As I grew up, I witnessed my small town transforming into a city. I come from a family of three, my parents and me.
+            <br/>
+            <br/>
+            I completed my master's degree in physics (2018-2023) from National Institute of Science Education and Research, Bhubaneswar and currently working there as a research assistant. Additionally, I am a co-owner and developer at TeraBh.ai.
+            <br/>
+            <br/>
+            
         </blockquote>
       </Card.Body>
     </Card>
