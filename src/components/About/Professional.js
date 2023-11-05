@@ -45,10 +45,10 @@ function ProfessionalAbout(){
                     }}
                     >
                         <AboutCard
-                            header="Side-ventures"
+                            header="Sideventure"
                             title="TeraBh.ai"
-                            description="ChatGPT and other utility websites and applications have shown how big of an impact can Natural Language Processing have in our day-to-day lives. Have you ever imagined how much of an impact would a personalised AI assistant have in your daily life? Yet, the currently available assistants provided by Google, Amazon, Apple etc. does not leverage the true of power of NLP. Here at TeraBh.ai, we aim to bridge the gap between these two domains. We hope to bring our Minimally Viable Product (MVP) within the end of this calendar year.
-                            \n\n
+                            description="ChatGPT and other utility websites and applications have shown how big of an impact can Natural Language Processing have in our day-to-day lives. Have you ever imagined how much of an impact would a personalised AI assistant have in your daily life? Yet, the currently available assistants provided by Google, Amazon, Apple etc. does not leverage the true of power of NLP. Here at TeraBh.ai, we aim to bridge the gap between these two domains. We hope to bring our Minimally Viable Product (MVP) within the end of this calendar year.\n
+                            \n
                             Want to get in touch? Mail us at init.beyondcontrol@gmail.com."
                         />
                     </Col>
