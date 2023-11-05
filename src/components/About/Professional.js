@@ -19,7 +19,7 @@ function ProfessionalAbout(){
                     fontSize:"1.2em",
                     paddingTop: "20px",
                     }}>
-                    My primary research interest lies in astrophysics and planetary sciences. I have explored various facets of these fields and find the following topics particularly intriguing: stellar astrophysics and composition of planetary surfaces.
+                    My primary research interest lies in <span className="purple">astrophysics and planetary sciences</span>. I have explored various facets of these fields and find the following topics particularly intriguing: <span className="purple">stellar astrophysics and composition of planetary surfaces</span>.
                     <br/>
                     <br/>
                 </p>
@@ -37,10 +37,10 @@ function ProfessionalAbout(){
                         <p style={{
                             textAlign: "justify", fontSize:"1.2em"
                             }}>
-                        I have an affinity for working with big datasets and developing physical models. I have worked on 3D simulations of Common Envelope Evolution in binary systems, and developed a model to calculate the torque exerted on stars by the gas envelope. The manuscript for this work is currently in preparation. Additionally, I've engaged in projects related to the thermal and photometric correction and analysis of hyperspectral data from Venus (VEx/VIRTIS) and Ceres (Dawn/VIR), as well as the analysis of radar data from Venus (Magellan and Arecibo Observatory).
+                        I have an affinity for working with <span className="purple">big datasets and developing physical models</span>. I have worked on 3D simulations of <span className="purple">Common Envelope Evolution in binary systems</span>, and developed a model to calculate the torque exerted on stars by the gas envelope. The manuscript for this work is currently in preparation. Additionally, I've engaged in projects related to <span className="purple"> thermal and photometric correction and analysis of hyperspectral data from Venus (VEx/VIRTIS) and Ceres (Dawn/VIR)</span>, as well as the <span className="purple">analysis of radar data from Venus (Magellan and Arecibo Observatory)</span>.
                         <br/>
                         <br/>
-                        My experience working with substantial datasets has drawn me into the realm of machine learning and artificial intelligence. I enjoy learning about applications of machine learning techniques in complex problems. My previous work encompasses various domains, including natural language processing, atmospheric sciences, and stock market prediction. Within the field of machine learning, I am particularly interested in delving deeper into model learning and interpretability. I firmly believe that for machine learning to find its place in basic science research, models must be developed in a way that makes them physically understandable to researchers.
+                        My experience working with substantial datasets has drawn me into the realm of <span className="purple">machine learning and artificial intelligence</span>. I enjoy learning about applications of machine learning techniques in complex problems. My previous work encompasses various domains, including <span className="purple">natural language processing, atmospheric sciences, and stock market prediction</span>. Within the field of machine learning, I am particularly interested in delving deeper into <span className="purple">model learning and interpretability</span>. I firmly believe that for machine learning to find its place in basic science research, models must be developed in a way that makes them physically understandable to researchers.
                         </p>
                     </Col>
 
