@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
+import Aboutintro from "./AboutIntro";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
@@ -21,7 +21,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <Aboutcard />
+            <Aboutintro />
           </Col>
           <Col
             md={5}
