@@ -16,12 +16,12 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={12} className="home-about-header">
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
           </Col>
-          <Col md={8} className="home-about-description">
+          <Col md={8}>
             <p className="home-about-body">
               I completed my master's degree in <b className="purple">physics</b> with a dissertation in <b className="purple">astrophysics</b> from <b className="purple">NISER, HBNI</b> and currently work there as a research assistant.
               <br/>
@@ -35,7 +35,7 @@ function Home2() {
               I am also a co-owner and developer at <b className="purple">TeraBh.ai</b>, which specializes in <b className="purple">personalized AI assistant</b>.
               <br/>
               <br/>
-              I am a die-hard FC Bayern München fan and usually spend my offtime watching <b className="purple">football</b>. I also like to chalk out scripts for <b className="purple">movies</b>, and was able to complete production for a few of them.
+              I am a die-hard <b className="red">FC Bayern München</b> fan and usually spend my offtime watching <b className="purple">football</b>. I also like to chalk out scripts for <b className="purple">movies</b>, and was able to complete production for a few of them.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

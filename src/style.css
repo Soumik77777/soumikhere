@@ -12,11 +12,17 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  --bayern-text-color: #dc052d;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
 }
+
+.red {
+  color: var(--bayern-text-color) !important;
+}
+
 
 button:focus {
   box-shadow: none !important;
