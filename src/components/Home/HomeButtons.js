@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./HomeButtons.css";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { BsFillArrowRightCircleFill, BsFillArrowUpRightCircleFill } from "react-icons/bs";
 
 function HomeButtons() {
   return (
@@ -28,7 +28,7 @@ function HomeButtons() {
           href={"/projects"}
           target="_self"
         >
-          Read about my research <BsFillArrowRightCircleFill />
+          Read about my research <BsFillArrowUpRightCircleFill />
         </Button>
       </Col>
 
@@ -41,7 +41,7 @@ function HomeButtons() {
           target="_blank"
           disabled
         >
-          Blog posts (coming...)
+          Blog posts <BsFillArrowRightCircleFill />(coming...)
         </Button>
       </Col>
     </Row>
