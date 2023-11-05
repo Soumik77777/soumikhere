@@ -47,7 +47,7 @@ function Home2() {
         <Row>
           <Col md={6} className="home-about-social">
 
-            <h1 id="Contact-me-link" style={{marginTop: "40px", marginBottom: "20px" }}>DROP AN EMAIL</h1>
+            <h1 id="Contact-me-link" style={{marginTop: "40px", marginBottom: "20px" }}><span className="purple">DROP</span> AN <span className="purple">EMAIL</span></h1>
 
             <p style={{ marginBottom: "20px" }}>
               <i style={{ marginBottom: "10px" }}>
@@ -63,7 +63,7 @@ function Home2() {
 
           <Col md={6} className="home-about-social">
 
-            <h1 style={{ marginTop: "40px", marginBottom:"20px" }}>FIND ME ON</h1>
+            <h1 style={{ marginTop: "40px", marginBottom:"20px" }}>FIND <span className="purple">ME</span> ON</h1>
 
             <ul className="home-about-social-links">
               <li className="social-icons">
