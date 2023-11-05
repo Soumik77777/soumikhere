@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 function AboutCards(props) {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
 
   const toggleDescription = () => {
     setExpanded(!expanded);
@@ -17,38 +17,14 @@ function AboutCards(props) {
         fontSize: "0.9em",
         textAlign: "left",
         borderBottom: "3px solid #371D41"
-        }}>{props.header}</Card.Header>}
+        }}>{props.header}</Card.Header}
       <Card.Body>
         <Card.Title style={{ textAlign: "left", marginBottom: "10px", color: "#ffffc1"}}>{props.title}</Card.Title>
         {props.subtitle && (
           <Card.Subtitle className="mb-2 text-muted" style={{textAlign: "left", marginBottom: "60px" }}>{props.subtitle}</Card.Subtitle>
         )}
-        <Card.Text style={{ textAlign: "justify"}}>
-          {expanded ? props.description : `${props.description.slice(0, 300)}...`}
-          {props.description.length > 300 && !expanded && (
-            <span>
-              {" "}
-              <Button
-                variant="link"
-                size="sm"
-                onClick={toggleDescription}
-              >
-                Read more
-              </Button>
-            </span>
-          )}
-          {props.description.length > 300 && expanded && (
-            <span>
-              {" "}
-              <Button
-                variant="link"
-                size="sm"
-                onClick={toggleDescription}
-              >
-                Read less
-              </Button>
-            </span>
-          )}
+        <Card.Text style={{ textAlign: "justify" }}>
+          {props.description}
         </Card.Text>
 
         {props.islink && (
@@ -60,7 +36,7 @@ function AboutCards(props) {
           >
             {props.linktext}
           </Button>
-        )}
+        }
 
         {props.islink2 && (
           <Button 
@@ -71,35 +47,7 @@ function AboutCards(props) {
           >
             {props.linktext2}
           </Button>
-        )}
-
-        
-        
-        {/*}
-        <Button variant="primary"
-        href={props.ghLink}
-        target="_blank"
-        >
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
-
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )}
-        */}
-
-
+        }
       </Card.Body>
     </Card>
   );

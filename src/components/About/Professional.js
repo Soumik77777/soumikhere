@@ -14,7 +14,7 @@ function ProfessionalAbout(){
                     Professional <strong className="purple">Interests</strong>
                 </h1>
                 <Row style={{justifyContent: "center", padding: "10px" }}>
-                    <Col md={7}
+                    <Col md={8}
                     style={{
                         justifyContent: "center",
                         paddingTop: "20px",
@@ -32,7 +32,13 @@ function ProfessionalAbout(){
                         </p>
                     </Col>
 
-                    <Col md={5} className="project-card">
+                    <Col md={4} className="project-card"
+                    style={{
+                        justifyContent: "center",
+                        paddingTop: "20px",
+                        paddingBottom: "50px",
+                    }}
+                    >
                         <AboutCard
                             header="Side-ventures"
                             title="TeraBh.ai"
