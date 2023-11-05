@@ -16,13 +16,12 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Fork{" "}
             <a
               href="https://github.com/soumyajit4419/Portfolio"
               target="_blank"
               rel="noopener noreferrer"
             >
-              site template
+              Fork site template
             </a>
           </h3>
         </Col>

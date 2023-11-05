@@ -33,17 +33,6 @@ function PersonalAbout(){
                     </Card.Body>
                 </Card>
 
-                <p style={{
-                    textAlign: "justify",
-                    fontSize:"1.2em",
-                    paddingTop: "20px",
-                    paddingLeft: "10px",
-                    paddingRight: "10px",
-                    }}>
-                    I am a genuine sports fan who gets excited around a cricket or football world cup or Olimpic events. <span className="red">FC Bayern München</span> is my weekly source of happiness or sadness. It's getting difficult with every passing year, but in my own utopic world, I'd have an hour or two everyday to play football myself.
-                    <br/>
-                    <br/>
-                </p>
                 <Row style={{
                     justifyContent: "center",
                     paddingLeft: "10px",
@@ -56,9 +45,15 @@ function PersonalAbout(){
                     }}
                     >
                         <p style={{
-                            textAlign: "justify", fontSize:"1.2em"
-                            }}>
-                        I have a keen interest in making shortfilms and directing dramas. I have been a part of making these shortfilms, Ovab (অভাব) (href="link"), TRIUMPH (href=link); drama, Porer Upokar Korio Na (href=link); parody, Hirak Rajye Corona(হীরক রাজ্যে করোনা) (href=link); mime, Human Evolution (href=link).
+                            textAlign: "justify",
+                            fontSize:"1.2em",
+                            paddingTop: "20px",
+
+                        }}>
+                            I am a genuine sports fan who gets excited around a cricket or football world cup or Olimpic events. <span className="red">FC Bayern München</span> is my weekly source of happiness or sadness. It's getting difficult with every passing year, but in my own utopic world, I'd have an hour or two everyday to play football myself.
+                            <br/>
+                            <br/>
+                            I have a keen interest in making short films and directing dramas. I have been a part of the following short films: <a href="https://youtu.be/yo1SHvDD4rg?feature=shared">Ovab (অভাব)</a>, <a href="https://youtu.be/PlzOgfLhCJ0?feature=shared">TRIUMPH</a>; drama: <a href="https://youtu.be/WdUTUlRQKYc?feature=shared" target="_blank">Porer Upokar Korio Na</a>; parody: <a href="https://youtu.be/VYIe2GAzVxg?feature=shared" target="_blank">Hirak Rajye Corona (হীরক রাজ্যে করোনা)</a>; and mime: <a href="https://youtu.be/XbZFlD5nYq4?feature=shared" target="_blank">Human Evolution</a>.
                         </p>
                     </Col>
 
