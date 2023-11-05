@@ -36,7 +36,7 @@ function AboutCards(props) {
           >
             {props.linktext}
           </Button>
-        }
+        )}
 
         {props.islink2 && (
           <Button 
@@ -47,7 +47,7 @@ function AboutCards(props) {
           >
             {props.linktext2}
           </Button>
-        }
+        )}
       </Card.Body>
     </Card>
   );
