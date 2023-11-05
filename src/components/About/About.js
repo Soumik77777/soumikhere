@@ -5,6 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutintro from "./AboutIntro";
 import Professional from "./Professional.js"
+import Hobby from "./Hobby.js"
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
@@ -35,6 +36,7 @@ function About() {
         
         
         <Professional/>
+        <Hobby/>
         
         {/* 
         <h1 className="project-heading">
