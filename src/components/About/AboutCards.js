@@ -16,10 +16,8 @@ function AboutCards(props) {
       {props.header && <Card.Header style={{
         fontSize: "0.9em",
         textAlign: "left",
-        //marginBottom: "20px",
         borderBottom: "3px solid #371D41"
         }}>{props.header}</Card.Header>}
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title style={{ textAlign: "left", marginBottom: "10px", color: "#ffffc1"}}>{props.title}</Card.Title>
         {props.subtitle && (
