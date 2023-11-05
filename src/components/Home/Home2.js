@@ -21,7 +21,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
           </Col>
-          <Col md={8}>
+          <Col md={8} className="home-about-description">
             <p className="home-about-body">
               I completed my master's degree in <b className="purple">physics</b> with a dissertation in <b className="purple">astrophysics</b> from <b className="purple">NISER, HBNI</b> and currently work there as a research assistant.
               <br/>
