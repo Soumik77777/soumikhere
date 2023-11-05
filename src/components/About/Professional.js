@@ -10,7 +10,7 @@ function ProfessionalAbout(){
         <Container fluid className="about-professional">
             <Particle/>
             <Container>
-                <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                <h1 style={{ fontSize: "2.3em", paddingBottom: "20px" }}>
                     Professional <strong className="purple">Interests</strong>
                 </h1>
                 <Row style={{
