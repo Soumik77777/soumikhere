@@ -35,7 +35,7 @@ function Home2() {
               I am also a co-owner and developer at <b className="purple">TeraBh.ai</b>, which specializes in <b className="purple">personalized AI assistant</b>.
               <br/>
               <br/>
-              I am a die-hard <b style="color: red">FC Bayern München</b> fan and usually spend my offtime watching <b className="purple">football</b>. I also like to chalk out scripts for <b className="purple">movies</b>, and was able to complete production for a few of them.
+              I am a die-hard FC Bayern München fan and usually spend my offtime watching <b className="purple">football</b>. I also like to chalk out scripts for <b className="purple">movies</b>, and was able to complete production for a few of them.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
