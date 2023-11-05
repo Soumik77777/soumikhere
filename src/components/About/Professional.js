@@ -13,23 +13,30 @@ function ProfessionalAbout(){
                 <h1 style={{ fontSize: "2.3em", paddingBottom: "20px" }}>
                     Professional <strong className="purple">Interests</strong>
                 </h1>
+
+                <p style={{
+                    textAlign: "justify",
+                    fontSize:"1.2em",
+                    paddingTop: "20px",
+                    }}>
+                    My primary research interest lies in astrophysics and planetary sciences. I have explored various facets of these fields and find the following topics particularly intriguing: stellar astrophysics and composition of planetary surfaces.
+                    <br/>
+                    <br/>
+                </p>
                 <Row style={{
                     justifyContent: "center",
-                    padding: "10px"
+                    paddingLeft: "10px",
+                    paddingRight: "10px"
                     }}>
                     <Col md={8}
                     style={{
                         justifyContent: "center",
-                        paddingTop: "20px",
                         paddingBottom: "50px",
                     }}
                     >
                         <p style={{
                             textAlign: "justify", fontSize:"1.2em"
                             }}>
-                        My primary research interest lies in astrophysics and planetary sciences. I have explored various facets of these fields and find the following topics particularly intriguing: stellar astrophysics and composition of planetary surfaces.
-                        <br/>
-                        <br/>
                         I have an affinity for working with big datasets and developing physical models. I have worked on 3D simulations of Common Envelope Evolution in binary systems, and developed a model to calculate the torque exerted on stars by the gas envelope. The manuscript for this work is currently in preparation. Additionally, I've engaged in projects related to the thermal and photometric correction and analysis of hyperspectral data from Venus (VEx/VIRTIS) and Ceres (Dawn/VIR), as well as the analysis of radar data from Venus (Magellan and Arecibo Observatory).
                         <br/>
                         <br/>
