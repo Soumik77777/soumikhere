@@ -38,7 +38,7 @@ function PersonalAbout(){
                     paddingLeft: "10px",
                     paddingRight: "10px"
                     }}>
-                    <Col md={8}
+                    <Col md={7}
                     style={{
                         justifyContent: "center",
                         paddingBottom: "50px",
@@ -57,7 +57,7 @@ function PersonalAbout(){
                         </p>
                     </Col>
 
-                    <Col md={4} className="about-card"
+                    <Col md={5} className="about-card"
                     style={{
                         justifyContent: "center",
                         paddingTop: "20px",
