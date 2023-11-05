@@ -7,8 +7,7 @@ function App() {
       <div className="row">
         <div className="col-md-8">
           <p>
-            This is a sample text paragraph. It contains some content that will
-            appear to the left of the card.
+            This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card. This is a sample text paragraph. It contains some content that will appear to the left of the card.
           </p>
         </div>
         <div className="col-md-4">
@@ -26,8 +25,7 @@ function App() {
       <div className="row">
         <div className="col-md-8">
           <p>
-            This text continues below the card, and you can add more content as
-            needed.
+            This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. This text continues below the card, and you can add more content as needed. 
           </p>
         </div>
       </div>
