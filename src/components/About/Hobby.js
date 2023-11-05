@@ -5,14 +5,28 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import AboutCard from "./AboutCards";
 
-function ProfessionalAbout(){
+function PersonalAbout(){
     return (
         <Container fluid className="about-professional">
             <Particle/>
             <Container>
                 <h1 style={{ fontSize: "2.3em", paddingBottom: "20px" }}>
-                    Professional <strong className="purple">Interests</strong>
+                    Personal <strong className="purple">Interests</strong>
                 </h1>
+
+                <Card>
+                    <Card.Body>
+                        <blockquote className="blockquote mb-0">
+                        <p>
+                            {' '}
+                            Medicine, business, law, engineering- these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love- these are what we stay alive for.{' '}
+                        </p>
+                        <footer className="blockquote-footer">
+                            Mr. John Keating, <cite title="Dead Poets Soceity">Dead Poets Soceity, 1989</cite>
+                        </footer>
+                        </blockquote>
+                    </Card.Body>
+                </Card>
 
                 <p style={{
                     textAlign: "justify",
@@ -21,7 +35,7 @@ function ProfessionalAbout(){
                     paddingLeft: "10px",
                     paddingRight: "10px",
                     }}>
-                    My primary research interest lies in <span className="purple">astrophysics and planetary sciences</span>. I have explored various facets of these fields and find the following topics particularly intriguing: <span className="purple">stellar astrophysics and composition of planetary surfaces</span>.
+                    I am a genuine sports fan who gets excited around a cricket or football world cup or Olimpic events. <span className="red">FC Bayern München</span> is my weekly source of happiness or sadness. It's getting difficult with every passing year, but in my own utopic world, I'd have an hour or two everyday to play football myself.
                     <br/>
                     <br/>
                 </p>
@@ -30,23 +44,6 @@ function ProfessionalAbout(){
                     paddingLeft: "10px",
                     paddingRight: "10px"
                     }}>
-                    
-                    
-                    <Col md={4} className="about-card"
-                    style={{
-                        justifyContent: "center",
-                        paddingTop: "20px",
-                        paddingBottom: "50px",
-                    }}
-                    >
-                        <AboutCard
-                            header="Sideventure"
-                            title="TeraBh.ai"
-                            description="ChatGPT and other utility websites and applications have shown how big of an impact can Natural Language Processing have in our day-to-day lives. Have you ever imagined how much of an impact would a personalised AI assistant have in your daily life? Yet, the currently available assistants provided by Google, Amazon, Apple etc. does not leverage the true of power of NLP. Here at TeraBh.ai, we aim to bridge the gap between these two domains. We hope to bring our Minimally Viable Product (MVP) within the end of this calendar year."
-                        />
-                    </Col>
-                    
-                    
                     <Col md={8}
                     style={{
                         justifyContent: "center",
@@ -63,10 +60,22 @@ function ProfessionalAbout(){
                         </p>
                     </Col>
 
+                    <Col md={4} className="about-card"
+                    style={{
+                        justifyContent: "center",
+                        paddingTop: "20px",
+                        paddingBottom: "50px",
+                    }}
+                    >
+                        <AboutCard
+                            header="Wanna make a movie together?"
+                            description="If you are genuinely interested in creating a short film or simply want to discuss the possibility, please don't hesitate to get in touch. Even if you only have an idea, feel free to reach out. I, too, often find it challenging to turn my ideas into a production, but perhaps together, we can accomplish something. Additionally, I've been planning to create an anime for quite some time, but I lack the artistic skills required for it. If you're interested in collaborating, please let me know."
+                        />
+                    </Col>
                 </Row>
             </Container>
         </Container>
     )
 }
 
-export default ProfessionalAbout;
+export default PersonalAbout;
