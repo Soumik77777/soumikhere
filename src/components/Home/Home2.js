@@ -63,7 +63,7 @@ function Home2() {
 
           <Col md={6} className="home-about-social">
 
-            <h1 style={{ marginTop: "40px" }}>FIND ME ON</h1>
+            <h1 style={{ marginTop: "40px", marginBottom:"20px" }}>FIND ME ON</h1>
 
             <ul className="home-about-social-links">
               <li className="social-icons">
