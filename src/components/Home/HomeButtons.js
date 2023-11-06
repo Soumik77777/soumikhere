@@ -25,7 +25,7 @@ function HomeButtons() {
           className="projects-button-link custom-button"
           variant="outline-info"
           size="lg"
-          href={"/projects"}
+          href={"/research"}
           target="_self"
         >
           Read about my research <BsFillArrowRightCircleFill />
