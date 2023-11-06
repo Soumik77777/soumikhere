@@ -53,7 +53,8 @@ function PersonalAbout(){
                             I am a genuine sports fan who gets excited around a cricket or football world cup or Olimpic events. <span className="red">FC Bayern München</span> is my weekly source of happiness or sadness. It's getting difficult with every passing year, but in my own utopic world, I'd have an hour or two everyday to play football myself.
                             <br/>
                             <br/>
-                            I have a keen interest in making short films and directing dramas. I have been a part of the following short films: <a href="https://youtu.be/yo1SHvDD4rg?feature=shared">Ovab (অভাব)</a>, <a href="https://youtu.be/PlzOgfLhCJ0?feature=shared">TRIUMPH</a>; drama: <a href="https://youtu.be/WdUTUlRQKYc?feature=shared" target="_blank">Porer Upokar Korio Na</a>; parody: <a href="https://youtu.be/VYIe2GAzVxg?feature=shared" target="_blank">Hirak Rajye Corona (হীরক রাজ্যে করোনা)</a>; and mime: <a href="https://youtu.be/XbZFlD5nYq4?feature=shared" target="_blank">Human Evolution</a>.
+                            I have a keen interest in making short films and directing dramas. I have been a part of the following short films: <a href="https://youtu.be/yo1SHvDD4rg?feature=shared" target="_blank">Ovab (অভাব)</a>, <a href="https://youtu.be/PlzOgfLhCJ0?feature=shared" target="_blank">TRIUMPH</a>; drama: <a href="https://youtu.be/WdUTUlRQKYc?feature=shared" target="_blank">Porer Upokar Korio Na</a>; parody: <a href="https://youtu.be/VYIe2GAzVxg?feature=shared" target="_blank">Hirak Rajye Corona (হীরক রাজ্যে করোনা)</a>; and mime: <a href="https://youtu.be/XbZFlD5nYq4?feature=shared" target="_blank">Human Evolution</a>.
+
                         </p>
                     </Col>
 
