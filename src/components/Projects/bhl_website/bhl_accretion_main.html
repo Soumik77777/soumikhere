@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Bondi-Hoyle-Lyttleton accretion onto and dynamical friction drag exerted on a moving body</title>
+    <style>
+        body {
+            font-size: 1.25em;
+            text-align: justify;
+        }
+        .caption{
+            font-size: 0.9em;
+        }
+        .left {
+            margin-right: 3cm;
+            margin-top: 1cm;
+            margin-bottom: 1cm;
+        }
+        
+        .abstract {
+            margin-left: 6cm;
+            margin-right: 6cm;
+            text-align: justify;
+            font-size: 1em;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            html {
+                filter: invert(100%);
+            }
+            img {
+                filter: invert(100%);
+            }
+            video {
+                filter: invert(100%);
+            }
+        }
+    </style>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+    MathJax = {
+      tex: {
+        tags: 'all'
+      }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+</head>
+  
+<body>
+    <div class="container">
+        <div>
+            <center>
+                <br><h1>Bondi-Hoyle-Lyttleton accretion onto and dynamical friction drag exerted on a moving body</h1>
+                <h5>Soumik Bhattacharyya</h5>
+                Dated: 29-11-2022
+            </center>
+        </div>
+
+ 
+        <br><hr><br>
+
+        Jump to following sections:
+
+        <div class="nav">
+            <a href="#section1" class="btn">Introduction</a>
+            <a href="#section2" class="btn">Accretion Radius and Accretion Rate</a>
+            <a href="#section3" class="btn">More Complex Systems</a>
+            <a href="#section4" class="btn">Drag Force</a>
+            <a href="#section5" class="btn">Observation</a>
+            <a href="#section6" class="btn">Numerical Solution</a>
+            <a href="#section7" class="btn">Accretion Rate with varying initial parameters</a>
+            <a href="#section8" class="btn">Applications</a>
+        </div>
+        
+
+        <br><br><br>
+
+        <p>
+            <a id="section"></a>
+            <h2>Introduction</h2>
+            <br/>
+            Accretion of gaseous matter onto a moving body is a phenomenon of huge importance in stellar astronomy. It is a key feature in both formation and evolution of celestial bodies. The rate, at which a point mass moving through a uniform gas cloud accretes mass, was first studied and calculated by F. Hoyle and R. A. Lyttleton (1939, 1940). The problem is later investigated by H. Bondi and F. Hoyle (1944) and H. Bondi (1951) and the accretion model has been named after all three of them. As our knowledge in the field of stellar evolution expanded with time, Bondi-Hoyle-Lyttleton (BHL) accretion model has been adapted and incorporated for a vast number of complex systems.
+
+
+            <br/><br/>
+
+            In the original works of Bondi, Hoyle and Lyttleton, a star, taken as a point mass, moves through a gas cloud, uniform and free of self-gravity, and attracts a bulk of mass to concentrate behind it. Some of the gas then can be accreted to the point mass. However, this calculation doesn't account for the gravitational force exerted by the bulk on the point mass in a direction opposite to its motion. This force, namely "drag force", was first considered by Chandrasekhar (1943) and studied in many other literatures in later times.
+
+            <br/><br/>
+
+            The following sections of the website discusses the physical model of BHL accretion method, derivation of accretion rate and accretion radius for simpler to more complex systems and origin of "dynamical friction" in the system. After that we present the numerical solution for different \(\gamma\) and Mach numbers. We then talk about different application of the BHL accretion model with an example of formation of bipolar nebulae formation.
+
+            <br/><br/>
+            <br/><br/>
+
+
+            <a id="section2"></a>
+            <h2>Accretion Radius and Accretion Rate</h2>
+            <br/><br/>
+
+            <center>
+                <div class="container" style="width: 90%;">
+                    <figure class="float-start">
+                        <img src="bondi_diagram.png" alt="BHL accretion diagram" width="90%" class="center" />
+                        <figcaption class="caption">Figure 1: Schematic Diagram of Bondi-Hoyle-Lyttleton Accretion Model</figcaption>
+                    </figure>
+                </div>
+            </center>
+
+
+
+            Let's look at the problem from the rest frame of the point mass (in this case, star; S). A uniform cloud of intergalactic gas is streaming past S from right to left in the diagram. The initial velocity and density of the gas (unaffected by the star's gravitational field) are \(v_\infty\) and \(\rho_\infty\), respectively. The impact parameter, denoted by \(\sigma\) is called the Bondi radius, i.e. the radius of the column of the gas which is eventually accreted by the star. We try to derive an expression for the impact parameter from the equation of motion of the gas particle from A (or B) to C.
+
+            <br/>
+
+            We recognise that the equation of motion is an equation of conic section,
+
+            $$ \frac{l}{r} = 1 + e cos\theta $$
+
+            At initial asymptote (\(l << r\)), the equation of direction parallel to asymptote is given by,
+
+            $$ 1 + e cos\theta = 0 $$
+
+            The opposite direction (direction parallel to SC) corresponds to,
+
+            $$ e cos\theta = 1 $$
+
+            Substituting \(e cos\theta\) in (1) gives us an expression for SC,
+
+            $$ \frac{l}{SC} = 1 + 1 $$
+            $$ \Rightarrow SC = \frac{l}{2} $$
+
+            Now, we differentiate (1) with respect to time,
+
+            $$ - \frac{l}{r^2} \frac{dr}{dt} = - e sin \theta \frac{d\theta}{dt} $$
+            $$ \Rightarrow \frac{dr}{dt} = \frac{esin\theta}{l} r^2 \frac{d\theta}{dt} = \frac{ehsin\theta}{l} [h = r^2 \frac{d\theta}{dt} = constant] $$
+
+            Now,
+
+            $$ h = \sqrt{GMl} = v_\infty \sigma $$
+
+            $$ \Rightarrow l = \frac{v^2_\infty \sigma ^2}{GM} $$
+
+            \(\therefore \) At C, the velocity of gas = \(v_\infty\)
+
+            The gas particle will fail to escape if,
+
+            $$ v^2_\infty < \frac{2GM}{SC} = \frac{4GM}{l} = \frac{4G^2M^2}{v^2_\infty \sigma^2} $$
+            $$ \therefore \sigma < \frac{2GM}{v^2_\infty} $$
+
+            We finally get the mass accretion rate,
+
+            $$ \dot{M}_{HL} = \pi \sigma^2 v_\infty \rho_\infty = \frac{4 \pi G^2 M^2 \rho_\infty}{v^3_\infty} $$
+
+
+            <br/><br/>
+
+
+            <a id="section3"></a>
+            <h2>For More Complex Systems</h2>
+            <br/><br/>
+
+            In the original formalism by Hoyle and Lyttleton (1939), the gas density reaches infinity along the accretion axis (CS in Figure 1). Bondi and Hoyle (1944) investigated the problem for a more realistic situation with a finite gas density column along the accretion axis. They calculate the modified accretion rate with an additional parameter \(\alpha\),
+
+            $$ \dot{M}_{BH} = \frac{4 \pi \alpha G^2 M^2 \rho_\infty}{v^3_\infty} $$
+
+            They found out that the value of \(\alpha\) lies between \(\frac{1}{2}\) and 1; however, the exact value of \(\alpha\) is indeterminate and depends on the initial conditions as well as perturbations applied on the system. For a star moving perpendicularly into a cloud, they found the value of \(\alpha\) to be 0.625 [Bondi and Hoyle (1944)].
+
+            <br/><br/>
+
+            A notable point is that the cloud has been taken non-interacting for calculation shown until now. In most cases, the accretion radius of the star is much greater than the mean free path between particles. In such cases, the gas flow has to be treated as a fluid. However, in most cases, the flow of such a fluid is supersonic and the thermal energy density is negligible in comparison to the kinetic energy density. In that case, the pressure terms of the fluid equation can be neglected except along the accretion axis and the equation can be reduced to the equation with particle orbit.
+
+            <br/><br/>
+
+            However, for subsonic and mildly supersonic cases, the fluid equations cannot be reduced so easily. Bondi (1952) studied this case for a simpler model with the star fixed in the gas frame and the accretion becoming spherically symmetric. The radius corresponding to the accretion radius, Bondi Radius, is given by,
+
+            $$ R_B = \frac{GM}{c^2_\infty} $$
+
+            where \(c_\infty\) is the speed of sound at a large distance. \(c^2_\infty\) can be given by the following expression with ratio of specific heat (\(\gamma\)), universal gas constant (\(R\)), temperature of gas at large distance (\(T_\infty\)) and mean molecular weight (\(\mu\)),
+
+            $$ c^2_\infty = \gamma R T_\infty / \mu $$
+
+            The accretion rate for such a case is given by,
+
+            $$ \dot{M}_{B} = \frac{4 \pi \lambda G^2 M^2 \rho_\infty}{c^3_\infty} $$
+
+            The non-dimensional parameter \(\lambda \) has a critical limit \(\lambda_c \) and is dependent on \(\gamma \). For isothermal and adiabatic cases, \(\gamma\) has the values 1 and \(5/3\) and \(\lambda_c\) has the values 1.12 and 0.25. The exact value of \(\lambda \) could be found by matching the flow pressure at the surface of the star to the surface pressure of the star.
+
+            <br/><br/>
+
+            The similarity between the expressions for \(\dot{M}_{B} \) and \(\dot{M}_{BH} \) has been noticed by Bondi (1952) and an equation for accretion rate for intermediate cases has been suggested,
+
+            $$ \dot{M} = \frac{2 \pi G^2 M^2 \rho_\infty}{(c^2_\infty + v^2_\infty)^\frac{3}{2}} $$
+
+            The simplicity of this equation allows it to be used frequently and reasonably for intermediate cases, even though it lacks the "mathematical foundation", as quoted by Hunt (1971).
+
+
+            <br/><br/>
+            <br/><br/>
+
+
+            <a id="section4"></a>
+            <h2>Drag Force</h2>
+            <br/><br/>
+
+            The idea of "dynamical friction" experienced by a star was first given by Chandrasekhar (1943). In the Bondi-Hoyle-Lyttleton scheme of accretion, the gas starts to accumulate behind the star. As a result, the star moving through the gas starts to experience a force against its motion. It is worth mentioning that the drag force is not an outcome of frictional resistance from gas particles in the direction of its motion. In its mathematical formulation, the accretor is taken as a point particle; moreover, the radius of the accretor in a real scenario is less than the total accretion radius. Rather, the difference in density, and consequently the gravitational pull, behind and ahead of the accretion would be a much more significant factor. This gravitational force from behind the accretor is known as "drag force" and Chandrasekhar named the phenomena "dynamical friction".
+
+            <br/><br/>
+
+            While the driving force behind the drag is easier to understand, it might be extremely complicated to derive an expression for a real system. However, simple dimensional analysis can give us an estimate [Edgar (2004)],
+
+
+            $$\dot{M} v_{\infty} \sim M \dot{v}_{\infty}=F_{\mathrm{drag}} $$
+
+            It has been suggested later [Ruffert and Arnett (1994)] that the drag force is actually within a factor of 10 greater than this estimate. In any case, this approximation suggests a constant motion of the star with respect to the gas flow, while the mass keeps increasing. We can easily conclude that such a system is not self-sustainable as the momentum changes with time. 
+
+            <br/><br/>
+
+            A detailed discussion on the expression for drag force can be found in Dokuchev (1964), Binnery and Tremaine (1987). The expression for drag force for supersonic motion in a gaseous medium was studied and proposed by Ruderman and Spiegel (1971) and Rephaeli & Salpeter (1980),
+
+            $$ F_{ss} = \dot{M} v_{\infty} ln(\frac{b_{max}}{b_{min}}) $$
+
+            where the subscript "\(ss\)"" denotes a solution in steady supersonic case, \(b_{max}\) and \(b_{min}\) are respectively the effective radii of the surrounding medium and the star. The magnitude of the drag force for different systems was further studied by Shima et al. (1985), Ruffert and Arnett (1994), Ostriker (1998) etc. However, the precise value of the drag force depends critically on the system and is still a matter of debate in the community.
+
+            <br/><br/>
+
+            An important consequence of the dynamical friction is rejuvenation of a star [McCrea (1953), Hunt(1971)]. Hunt (1971) calculated the effect of drag force on the velocity of a star moving through a fairly dense cloud (\(10^3 particles/ cm^3\)) for a standard \(\alpha \) value 0.625 and he found that the drag is able to reduce the velocity from \(20 km/s\) to \(1 km/s\). As a result, the star is able to accrete more material and it can have a relatively higher mass fraction of hydrogen (assuming that the cloud is composed mostly of hydrogen) after a reasonable time (in order of million years).
+
+
+            <br/><br/>
+            <br/><br/>
+
+
+            <a id="section5"></a>
+            <h2>Direct Observation</h2>
+
+            <br/><br/>
+
+            The rate of accretion for a galaxy, given by the expression for \(\dot{M}_{BH}\), has also been calculated by Hunt(1971) for \(\alpha = 0.625 \) and \(\rho_{\infty} = 10^3 particles/ cm^{3}\). The rate was found to be \(10^7 M_\odot/ My\) and it takes the galaxy \(2\times 10^{10} \) years to double up the mass. It is needless to mention that we cannot have any direct observational evidence for such a low value of mass difference. Although the accretion through BHL mechanism for specific systems has been studied and rate has been compared to results from simulations.
+
+            <br/><br/>
+            <br/><br/>
+
+
+            <a id="section6"></a>
+            <h2>Numerical Solutions</h2>
+
+            <br/><br/>
+
+            <div class="container" style="width: 60%;">
+                <figure class="float-start">
+                    <img src="hunt.png" alt="hunt's solution for bhl accretion" width="60%" class="center" />
+                    <figcaption class="caption">Figure 2: Density contours of accretion flow [Hunt (1971)]</figcaption>
+                </figure>
+            </div>
+
+
+            Hunt (1971) was the first to solve the equation for accretion rate numerically and his solution is shown in this plot (Figure 2) with density contours. The Mach number and \(\gamma \) for this solution are 0.6 and 5/3, respectively. Axes units are in accretion radii.
+
+            <br><br>
+
+            <center>
+                <div class="container" style="width: 100%;">
+                    <figure class="float-start">
+                        <img src="Picture1.png" alt="sample solution for bhl accretion" width="90%" class="center" />
+                        <figcaption class="caption">Figure 3: Sample accretion flow, presented in a density contour [Credits: Shima et al. (1985), Edgar (2004)]</figcaption>
+                    </figure>
+                </div>
+            </center>
+
+            Both of the following sample solutions (Figure 3) are presented in density contours for the accretion flow for \(\gamma \) 5/3 and Mach number 1.4. The left one is from Shima et al. (1985), while the one on the right is from Edgar (2004). The units of axes for all the figures are in accretion radii.
+
+
+            <br/><br/>
+            <br/><br/>
+
+
+            <a id="section7"></a>
+            <h2>Accretion Rate with varying initial parameters</h2>
+
+            <br/><br/>
+
+            The accretion rate has been plotted here as a function of accretor mass. The gas density and temperature at a large distance has been taken as standard values for cold neutral hydrogen cloud. \(\rho_\infty \) has been varied from \(10^2\) to \(10^5\) particles/\(cm^3\). Two different temperatures, 10K and 20K have been taken. We take \(\gamma \) for adiabatic diatomic gas, 5/3. \(\lambda_c = 1.25 \) has been used as a proxy for \(\lambda \). Accretion rate falls in the range of \(10^3\) to \(10^9\) particles/s or \(10^{10-16} \) particles/yr. For a longer period of time we need to increase the mass after each time step and calculate the rate for updated mass. That could be another interesting analysis to perform. 
+
+            <center>
+                <div class="container" style="width: 100%;">
+                    <figure class="float-start">
+                        <img src="Figure_1.png" alt="sample solution for bhl accretion" width="45%" class="center" />
+                        <img src="Figure_2.png" alt="sample solution for bhl accretion" width="45%" class="center" />
+                        <figcaption class="caption">Figure 3: Accretion rate is plotted as a function of accretor mass with varying \(\rho_infty \) and \(T_infty \)</figcaption>
+                    </figure>
+                </div>
+            </center>
+
+
+            <br/><br/>
+            <br/><br/>
+
+
+            <a id="section8"></a>
+            <h2>Applications of BHL Accretion</h2>
+
+            <br/><br/>
+
+
+            <div class="container" style="width: 50%;">
+                <figure class="float-start">
+                    <img src="330px-Planetary_Nebula_M2-9.jpg" alt="sample solution for bhl accretion" width="100%" class="center" />
+                    <figcaption class="caption">Figure 4: Planetary Nebula M2-9, otherwise known as the Twin Jet Nebula or the Wings of a Butterfly Nebula</figcaption>
+                </figure>
+            </div>
+
+            Despite being formulated under simple physical and dynamical assumptions, BHL accretion has been found to be quite accurate in modeling the accretion rates in several astronomical phenomena, such as jets in planetary nebulae (PNe), Intermediate Luminosity Optical Transmits (ILOT), Gravitational Wave Generating Mergers etc. The high-velocity, often symmetric outflows or jets from PNe's (Figure 4)cannot be easily accommodated within the current models of the evolution of giant stars [Reyes-Ruiz and Lopez (1999)]. One possible way to explain the jets could be invoking the presence of accretion disks. The presence of binary nuclei in the PNes may lead to mass transfer and a consequent development of an accretion disk. This idea has been proposed by Morris (1987) and Soker and Livio (1994), while the former's model is built upon BHL accretion method.
+
+            <br/><br/>
+
+
+
+
+            <center>
+                <div class="container" style="width: 100%;">
+                    <figure class="float-start">
+                        <img src="density.png" alt="sample solution for bhl accretion" width="45%" class="center" />
+                        <img src="schematic.jpg" alt="sample solution for bhl accretion" width="45%" class="center" />
+                        <figcaption class="caption">Figure 5: Density contours and the velocity Field in the orbital plane. The density contours are in units of \(gcm^{−3}\). Time is in orbital periods and velocity in \(kms^{−1}\). The length scale is in the primary’s radius. Coordinates of the primary and secondary are respectively [2.4, 0] and [3.6, 0]. [Courtesy: Mastrodemos and Morris (1998)]. Figure 6: Cartoon representing authors’ speculation on a possible correspondence between Hubble Space Telescope PNe images and multi-polar wind structures from the hybrid stellar-disk wind paradigm, for different initial stellar spins and thrust ratios. [Courtesy: Blackman, Frank, and Welch (2001)]</figcaption>
+                    </figure>
+                </div>
+            </center>
+
+            Figure 5 shows us the density contour and velocity field in the orbital plane of a binary star-system simulation performed by Mastrodemos and Morris (1998). The authors point out that the accretion wake is located in the upper left corner. Spherical symmetry is maintained near the primary star, but an asymmetry develops near the secondary because of the orbital motion of the secondary. We can further infer that the secondary star is beginning to accrete mass from the primary star (in this particular snapshot). Its orbital motion must be in the downward direction, as the contours of the gas particles are following its motion with a lag. The bulge of mass behind the companion causes a drag force on the star in the opposite direction of the motion.
+
+            <br/><br/>
+
+            Figure 6 from Blackmann et al. (2000) is a schematic representation of the author's speculation on a possible correspondence  between Hubble Space Telescope (HST) PNe images and multipolar wind structures from the hybrid stellar-disk wind paradigm for different initial stellar spins and thrust ratios.
+
+            <br/><br/>
+
+            Apart from mass transfer binary systems, BHL is also applicable to protostellar clusters and galaxy clusters. Theory could also be improved to explain accretion disk of Super Massive Black Holes present in the center of a galaxy.
+
+
+            <br/><br/>
+            <br/><br/>
+
+            <h2>References</h2>
+
+            <br/><br/>
+
+            <ol>
+                <li>Hoyle, F., & Lyttleton, R. A. (1939, July). The effect of interstellar matter on climatic variation. In Mathematical Proceedings of the Cambridge Philosophical Society (Vol. 35, No. 3, pp. 405-415). Cambridge University Press.</li>
+
+                <li>Hoyle, F., & Lyttleton, R. A. (1940, July). On the accretion of interstellar matter by stars. In Mathematical Proceedings of the Cambridge Philosophical Society (Vol. 36, No. 3, pp. 325-330). Cambridge University Press.</li>
+
+                <li>Bondi, H., & Hoyle, F. (1944). On the mechanism of accretion by stars. Monthly Notices of the Royal Astronomical Society, 104(5), 273-282.</li>
+
+                <li>Bondi, H. (1952). On spherically symmetrical accretion. Monthly Notices of the Royal Astronomical Society, 112(2), 195-204.</li>
+
+                <li>Chandrasekhar, S. (1943). Dynamical friction. I. General considerations: the coefficient of dynamical friction. Astrophysical Journal, 97, 255-262.</li>
+
+                <li>Hunt, R. (1971). A fluid dynamical study of the accretion process. Monthly Notices of the Royal Astronomical Society, 154(2), 141-165.</li>
+
+                <li>Edgar, R. (2004). A review of Bondi–Hoyle–Lyttleton accretion. New Astronomy Reviews, 48(10), 843-859.</li>
+
+                <li>Ruffert, M., & Arnett, D. (1994). Three-dimensional hydrodynamic Bondi-Hoyle accretion. 2: Homogeneous medium at Mach 3 with gamma= 5/3. The Astrophysical Journal, 427, 351-376.</li>
+
+                <li>Dokuchaev, V. P. (1964). Emission of Magnetoacoustic Waves in the Motion of Stars in Cosmic Space. Soviet Astronomy, 8, 23.</li>
+
+                <li>Binney, J., & Tremaine, S. (2011). Galactic dynamics (Vol. 13). Princeton university press.</li>
+
+                <li>Ruderman, M. A., & Spiegel, E. A. (1971). Galactic wakes. The Astrophysical Journal, 165, 1.</li>
+
+                <li>Rephaeli, Y., & Salpeter, E. E. (1980). Flow past a massive object and the gravitational drag. The Astrophysical Journal, 240, 20-24.</li>
+
+                <li>Shima, E., Matsuda, T., Takeda, H., & Sawada, K. (1985). Hydrodynamic calculations of axisymmetric accretion flow. Monthly Notices of the Royal Astronomical Society, 217(2), 367-386.</li>
+
+                <li>Ostriker, E. C. (1999). Dynamical friction in a gaseous medium. The Astrophysical Journal, 513(1), 252.</li>
+
+                <li>McCrea, W. H. (1953). The rate of accretion of matter by stars. Monthly Notices of the Royal Astronomical Society, 113(2), 162-179.</li>
+
+                <li>Morris, M. (1987). Mechanisms for mass loss from cool stars. Publications of the Astronomical Society of the Pacific, 99(621), 1115.</li>
+
+                <li>Soker, N., & Livio, M. (1994). Disks and jets in planetary nebulae. The Astrophysical Journal, 421, 219-224.</li>
+
+                <li>Mastrodemos, N., & Morris, M. (1998). Bipolar preplanetary nebulae: Hydrodynamics of dusty winds in binary systems. I. formation of accretion disks. The Astrophysical Journal, 497(1), 303.</li>
+
+                <li>Blackman, E. G., Frank, A., & Welch, C. (2001). Magnetohydrodynamic stellar and disk winds: application to planetary nebulae. The Astrophysical Journal, 546(1), 288.</li>
+
+
+            </ol>
+
+
+            
+
+        <br><br>
+        <center>
+        <p>
+            <b>Summary</b><br>
+            <p class="abstract">
+
+                In this article, we have discussed the physical process of Bondi-Hoyle-Lyttleton (BHL) accretion model. We first derived the accretion rate and accretion radius for a point mass moving through a non-interacting cloud of gas. Further development on the model for a more realistic case has also been discussed. The accretion rate for subsonic and supersonic motion of star in a fluid is discussed. After that, we talk about the origin of the dynamical friction present in the system. An expression for the drag force is also discussed. Afterwards, some of the numerical solution has been presented, followed by an original work of variation of accretion rate with accretor mass. We concluded our discussion by mentioning some of the applications of BHL accretion, with added focus on formation of bipolar nebulae.
+            </p>
+        </p>
+        </center>
+
+
+
+
+        <br><br><br>
+
+
+    </div>
+
+    <hr>
+    <center>Soumik Bhattacharyya @ 2022</center><br>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

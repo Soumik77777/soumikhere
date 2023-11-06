@@ -63,11 +63,11 @@ function Projects() {
               title="Ensemble Learning: Bagging and Boosting"
               subtitle="Reading Project, 2023"
 
-              description="Will be added"
+              description="In machine learning, ensemble learning methods are techniques used to combine multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. It works on the hypothesis that certain models do well in one aspect of the data, while others do well in modeling another. The idea is to leverage the strengths of different models and reduce their individual weaknesses. There are different types of ensemble learning, each with its own approach to combining models. The most common types are bagging, boosting, and stacking. In bagging, multiple models are trained on different subsets of the training data, which reduces the variance by averaging the predictions of the individual models. Boosting, on the other hand, focuses on reducing bias by sequentially training models on misclassified instances."
 
               islink = {true}
               link="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec20.pdf"
-              linktext="Report"
+              linktext="Slides"
 
               islink2={false}
             />
@@ -80,11 +80,11 @@ function Projects() {
               title="Bondi-Hoyle-Lyttleton accretion onto and dynamical friction drag exerted on a moving body"
               subtitle="Reading Project, 2022"
 
-              description="Will be added"
+              description="Accretion of gaseous matter onto a moving body is a phenomenon of huge importance in stellar astronomy. It is a key feature in both formation and evolution of celestial bodies. The rate, at which a point mass moving through a uniform gas cloud accretes mass, was first studied and calculated by F. Hoyle and R. A. Lyttleton (1939, 1940). The problem is later investigated by H. Bondi and F. Hoyle (1944) and H. Bondi (1951) and the accretion model has been named after all three of them. As our knowledge in the field of stellar evolution expanded with time, Bondi-Hoyle-Lyttleton (BHL) accretion model has been adapted and incorporated for a vast number of complex systems. In the original works of Bondi, Hoyle and Lyttleton, a star, taken as a point mass, moves through a gas cloud, uniform and free of self-gravity, and attracts a bulk of mass to concentrate behind it. Some of the gas then can be accreted to the point mass. However, this calculation doesn't account for the gravitational force exerted by the bulk on the point mass in a direction opposite to its motion. This force, namely 'drag force', was first considered by Chandrasekhar (1943) and studied in many other literatures in later times."
 
-              islink = {false}
-              //link=""
-              //linktext="Website"
+              islink = {true}
+              link=""
+              linktext="Website"
 
               islink2={false}
             />
