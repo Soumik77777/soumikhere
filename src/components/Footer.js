@@ -4,10 +4,10 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineFork
 } from "react-icons/ai";
 import { FaResearchgate, FaLinkedinIn } from "react-icons/fa";
 import { SiResearchgate } from "react-icons/si";
-import { PiGitForkDuotone } from "react-icons/pi";
 
 function Footer() {
   let date = new Date();
@@ -23,7 +23,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <PiGitForkDuotone /> Fork site template
+              <AiOutlineFork /> Fork site template
             </a>
           </h3>
         </Col>
