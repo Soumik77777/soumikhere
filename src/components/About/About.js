@@ -7,7 +7,6 @@ import Aboutintro from "./AboutIntro";
 import Professional from "./Professional.js"
 import Hobby from "./Hobby.js"
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
 
 function About() {
   return (
@@ -27,7 +26,7 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "80px", paddingBottom: "50px" }}
+            style={{ paddingTop: "40px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
