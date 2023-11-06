@@ -2,15 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import alphaCen from "../../Assets/Projects/alpha_centauri.png";
-import BHL from "../../Assets/Projects/bhl.png";
-import cee from "../../Assets/Projects/cee.png";
-import ceres from "../../Assets/Projects/ceres.png";
-import CMB from "../../Assets/Projects/cmb.png";
-import ensembleRF from "../../Assets/Projects/ensemble_rf.png";
-import fault from "../../Assets/Projects/fault.png";
-import mlAtmo from "../../Assets/Projects/ml_atmo.png";
-import Venus from "../../Assets/Projects/venus.png";
+import alphaCen from "../../Assets/Projects/alpha_centauri.PNG";
+import BHL from "../../Assets/Projects/bhl.PNG";
+import cee from "../../Assets/Projects/cee.PNG";
+import ceres from "../../Assets/Projects/ceres.PNG";
+import CMB from "../../Assets/Projects/cmb.PNG";
+import ensembleRF from "../../Assets/Projects/ensemble_rf.PNG";
+import fault from "../../Assets/Projects/fault.PNG";
+import mlAtmo from "../../Assets/Projects/ml_atmo.PNG";
+import Venus from "../../Assets/Projects/venus.PNG";
 
 function Projects() {
   return (
