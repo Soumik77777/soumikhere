@@ -39,6 +39,26 @@ function Projects() {
             />
           </Col>
 
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              header="Planetary Science"
+              imgPath={leaf}
+              title="Pre-processing and Analysis of hyper-spectral images of Asteroid Ceres acquired by the VIR Spectrometer on-board NASA's Dawn Mission"
+              subtitle="Semester Project, 2021-2022"
+
+              description="The spectral signal data of a planetary body is a combination of signals resulting from both surface scattering and thermal emission. When examining the Visible and Infrared Spectrometer (VIR) data from NASA's Dawn mission for asteroid Ceres, it's observed that the thermal component significantly influences the reflectance spectrum in the longer near-infrared wavelengths. To isolate the surface scattering from the thermal component, various factors need to be taken into account, including radiometric calibration, correction of artifacts, and the determination of both emissivity and local surface temperature. A thermal correction model based on Clark's method of linear interpolation has been developed. The determination of emissivity at each pixel involves applying Kirchhoff's law to non-absorption wavelength regions spanning approximately 1.7 μm to 2.49 μm. Surface temperature is then determined by fitting the difference between the thermally uncorrected data and the projection of the non-absorption region toward longer wavelengths. Subsequently, each spectrum is corrected by subtracting an equivalent blackbody emission curve with specified emissivity and temperature. After applying thermal correction to the hyperspectral data, photometric correction is carried out using the Hapke's disk-resolved radiative transfer model to eliminate contributions resulting from in-flight observations of the surface in different viewing geometries. In the initial assessment of its photometric properties, Hapke's disk-resolved model is used, which includes parameters such as single-scattering albedo (ω), a single-term Henyey-Greenstein (HG1) phase function, multiple scattering with the Chandrasekhar function, and the shadow hiding opposition effect (SHOE)"
+
+              islink={true}
+              link="https://drive.google.com/file/d/1AZq2QUGHLe27vQVAitS7toUONRsDfZ6D/view?usp=drive_link"
+              linktext="Report"
+
+              islink2={true}
+              linktext2="IPSC, 2022"
+              link2 = "https://drive.google.com/file/d/1s4ojwrDV6fdNUkuWJcc8mlPDqreebLKv/view?usp=drive_link"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               header="Atmospheric Science, Machine Learning"
@@ -53,6 +73,26 @@ function Projects() {
               linktext="Report"
 
               islink2={false}
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              header="Plantary science"
+              imgPath={editor}
+              title="Surface Properties of Maxwell Montes region of Venus using Arecibo Dual-Polarization Radar Data"
+              subtitle="Summer Internship, 2022"
+
+              description="We analyse S-band radar data of Venusian Surface obtained by ground based Arecibo Observatory to interpret the interrelation of radar-echoes in two orthogonal polarization states. We focus our area of interest to Maxwell Montes, the highest and steepest mountain range of Venus, which is also associated with possibilities of finding a past water-rich environment. We compare the $\sigma_{OC}$ - $\sigma_{SC}$ relation with different parts of Maxwell and then with other highlands, impact meltflows, radar-bright craters and associated radar-dark parabolas. An analysis of $\sigma_{OC}$ - $\sigma_{SC}$ trends suggest a greater surface rock population and lower effective electric permittivity in northern and southern radar-bright parts of Maxwell. Further we use the data from Magellan mission (1990-1994) for surface emissivity and planetary radius to find a general relation between the two and Circular Polarization Ratio."
+
+              islink = {true}
+              link="https://drive.google.com/file/d/1dyikUe0zmtW8LnqGRJ1YR6_S4eWPXk9H/view?usp=drive_link"
+              linktext="Report"
+
+              islink2={true}
+              linktext2= "VEXAG, 2022"
+              link2= "https://ui.adsabs.harvard.edu/abs/2022LPICo2688.8014B/abstract"
             />
           </Col>
 
@@ -111,31 +151,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              header="Plantary science"
-              imgPath={editor}
-              title="Surface Properties of Maxwell Montes region of Venus using Arecibo Dual-Polarization Radar Data"
-              subtitle="Summer Internship, 2022"
-
-              description="We analyse S-band radar data of Venusian Surface obtained by ground based Arecibo Observatory to interpret the interrelation of radar-echoes in two orthogonal polarization states. We focus our area of interest to Maxwell Montes, the highest and steepest mountain range of Venus, which is also associated with possibilities of finding a past water-rich environment. We compare the $\sigma_{OC}$ - $\sigma_{SC}$ relation with different parts of Maxwell and then with other highlands, impact meltflows, radar-bright craters and associated radar-dark parabolas. An analysis of $\sigma_{OC}$ - $\sigma_{SC}$ trends suggest a greater surface rock population and lower effective electric permittivity in northern and southern radar-bright parts of Maxwell. Further we use the data from Magellan mission (1990-1994) for surface emissivity and planetary radius to find a general relation between the two and Circular Polarization Ratio."
-
-              islink = {true}
-              link="https://drive.google.com/file/d/1dyikUe0zmtW8LnqGRJ1YR6_S4eWPXk9H/view?usp=drive_link"
-              linktext="Report"
-
-              islink2={true}
-              linktext2= "VEXAG, 2022"
-              link2= "https://ui.adsabs.harvard.edu/abs/2022LPICo2688.8014B/abstract"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               header="Seismology, Numerical Physics"
               imgPath={bitsOfCode}
               title="Solving a system of fluid-induced fault slip"
               subtitle="Course Assignment Project, 2022"
 
-              description="Will be added"
+              description="The action of injecting fluid into the subsurface level of Earth is often followed by a number of earthquake events in the area. The fluid goes to the subsurface level and starts to move in radially outward direction in a region where there is already a damage zone in the rock. The host rock has a low permeability and high elastic modulus compared to the fault damage zone. The pore pressure behaves as a radial function, decreasing as we move away from the center of the borehole but increasing over time. This pore-pressure influence has the effect of decreasing the normal stress. The concept of normal stress is essential as it impacts the frictional resistance to sliding. This resistance is a product of two factors: the frictional coefficient and normal stress. Additionally, there's a background shear traction that comes into play at the boundary between the damage zone and the host rock. This traction facilitates the growth of a rupture shape that's elliptical in nature and follows the major axis, aligning with the slip direction. We solve the force balance equation with Gauss-Chebyshev quadrature of Type II."
 
               islink = {true}
               link="https://drive.google.com/file/d/1RL3p16f1zgA2jHoEhz3E-9ylbjO4vVY-/view?usp=drive_link"
@@ -147,31 +168,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              header="Planetary Science"
-              imgPath={leaf}
-              title="Pre-processing and Analysis of hyper-spectral images of Asteroid Ceres acquired by the VIR Spectrometer on-board NASA's Dawn Mission"
-              subtitle="Semester Project, 2021-2022"
-
-              description="Will be added"
-
-              islink={true}
-              link="https://drive.google.com/file/d/1AZq2QUGHLe27vQVAitS7toUONRsDfZ6D/view?usp=drive_link"
-              linktext="Report"
-
-              islink2={true}
-              linktext2="IPSC, 2022"
-              link2 = "https://drive.google.com/file/d/1s4ojwrDV6fdNUkuWJcc8mlPDqreebLKv/view?usp=drive_link"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               header="Astrophysics, Celestial Mechanics"
               imgPath={suicide}
               title="Study of gravity bound 3-body system using orbital dynamics and intensity interferometry"
               subtitle="Summer Internship, 2019"
 
-              description="Will be added"
+              description="Possible exoplanets orbiting Alpha Centauri A & B (a Cen A, a Cen B) are of considerable interest of late. Both simulation type and observational close scrutiny of this star system is underway. Zhao et. al. (2017) have analysed existing data and have found that the masses of possible Earth-like exoplanets in the habitable zones (HZ) of these stars would be in the range of <50 M_earth (< 10 M_earth) for a Cen A (a Cen B). We have developed an efficient orbit integration code (in open source SciLab) using the Leap-Frog Algorithm and have employed it to simulate a 3-body system in a Cen star system (with a Cen A, a Cen B and an exoplanet (alpha Cen A a) orbiting the former star). The planet-star mass ratios (M_p/M_s) have been kept in the range of ~10-10^5 (in line with the results of Zhao et. al., 2017). The gravitational coupling produces characteristic wobbles in the orbits of both the stars. Further efforts to develop a method to facilitate experimental detection of such small wobbles in the star orbits using Earth-based telescopes has to be performed."
               
               islink={true}
               linktext= "ICFP, 2019"
