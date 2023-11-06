@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaResearchgate, FaLinkedinIn } from "react-icons/fa";
 import { SiResearchgate } from "react-icons/si";
+import { PiGitForkDuotone } from "react-icons/pi"
 
 function Footer() {
   let date = new Date();
@@ -22,7 +23,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Fork site template
+              <PiGitForkDuotone /> Fork site template
             </a>
           </h3>
         </Col>
