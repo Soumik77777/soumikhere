@@ -28,7 +28,7 @@ function HomeButtons() {
           href={"/projects"}
           target="_self"
         >
-          Read about my research <BsFillArrowUpRightCircleFill />
+          Read about my research <BsFillArrowRightCircleFill />
         </Button>
       </Col>
 
@@ -41,7 +41,7 @@ function HomeButtons() {
           target="_blank"
           disabled
         >
-          Blog posts <BsFillArrowRightCircleFill />(coming...)
+          Blog posts <BsFillArrowUpRightCircleFill />(coming...)
         </Button>
       </Col>
     </Row>
