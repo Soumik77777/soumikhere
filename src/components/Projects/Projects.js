@@ -46,7 +46,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Planetary Science"
-              imgPath={cee}
+              imgPath={ceres}
               title="Pre-processing and Analysis of hyper-spectral images of Asteroid Ceres acquired by the NASA Dawn/VIR"
               subtitle="Semester Project, 2021-2022"
 
@@ -65,7 +65,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Atmospheric Science, Machine Learning"
-              imgPath={cee}
+              imgPath={mlAtmo}
               title="Retrieving Pressure-Temperature and Water Vapour Profiles in Earth’s Atmosphere from INSAT 3DR Data"
               subtitle="Course Assignment, 2023"
 
@@ -83,7 +83,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Plantary science"
-              imgPath={cee}
+              imgPath={Venus}
               title="Surface Properties of Maxwell Montes region of Venus using Arecibo Dual-Polarization Radar Data"
               subtitle="Summer Internship, 2022"
 
@@ -102,7 +102,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Machine Learning, Ensemble Learning"
-              imgPath={cee}
+              imgPath={ensembleRF}
               title="Ensemble Learning: Bagging and Boosting"
               subtitle="Reading Project, 2023"
 
@@ -119,7 +119,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Astrophysics, Stellar Accretion"
-              imgPath={cee}
+              imgPath={BHL}
               title="Bondi-Hoyle-Lyttleton accretion onto and dynamical friction drag exerted on a moving body"
               subtitle="Reading Project, 2022"
 
@@ -136,7 +136,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Cosmology"
-              imgPath={cee}
+              imgPath={CMB}
               title="Hubble Space Telescope Project and determination of Hubble parameter"
               subtitle="Reading Project, 2021"
 
@@ -155,7 +155,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Seismology, Numerical Physics"
-              imgPath={cee}
+              imgPath={fault}
               title="Solving a system of fluid-induced fault slip"
               subtitle="Course Assignment Project, 2022"
 
@@ -172,7 +172,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Astrophysics, Celestial Mechanics"
-              imgPath={cee}
+              imgPath={alphaCen}
               title="Study of gravity bound 3-body system using orbital dynamics and intensity interferometry"
               subtitle="Summer Internship, 2019"
 
