@@ -2,12 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import cee from "../../Assets/Projects/cee.png";
 
 function Projects() {
   return (
@@ -26,7 +21,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Astrophysics, Stellar Evolution"
-              imgPath={chatify}
+              imgPath={cee}
               title="Common Envelope Evolution on the Asymptotic Giant Branch: Towards Building a Simple Model"
               subtitle="M.Sc. Dissertation Project, 2022-Now"
               description="Common Envelope (CE) is a significant yet poorly understood process in the evolution of binary star systems. Observing CE directly is practically impossible due to its short duration, and simulating it computationally poses challenges due to computational demands and the diverse nature of binary systems undergoing CE. This research focuses on analyzing a simulated binary system, with an Asymptotic Giant Branch (AGB) star as the primary core and a companion star of equal mass. The simulation extends for approximately 40 orbital revolutions, although a stationary orbit is not achieved. The study investigates the drag force exerted by gas particles on the secondary mass and compares it to previous simulation-based works. Additionally, the torque applied to both stars by the gas medium is calculated and analyzed. Furthermore, the research evaluates the torque exerted by a certain percentage of gas and determines the amount of gas required to achieve a comparable torque to the total torque. The study then aims to model the torque exerted on the stars by treating the bulk of gas inside the equidensity surface as a homogeneous and prolate ellipsoidal body. By parameterizing the ellipsoid and obtaining the semi-axes (A, B, C) and the lag angle between the binary system axis and the major axis of the ellipsoid ($\Delta \phi$), the torque applied to both stars within the bulk of gas is calculated from the potential energy inside the fitted ellipsoid. The calculated torque is found to be consistent with the torque calculated from the drag force. Moreover, an expression for the binary separation is developed and successfully modeled within the timescale of evolution."
@@ -43,7 +38,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Planetary Science"
-              imgPath={leaf}
+              imgPath={cee}
               title="Pre-processing and Analysis of hyper-spectral images of Asteroid Ceres acquired by the NASA Dawn/VIR"
               subtitle="Semester Project, 2021-2022"
 
@@ -62,7 +57,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Atmospheric Science, Machine Learning"
-              imgPath={bitsOfCode}
+              imgPath={cee}
               title="Retrieving Pressure-Temperature and Water Vapour Profiles in Earth’s Atmosphere from INSAT 3DR Data"
               subtitle="Course Assignment, 2023"
 
@@ -80,7 +75,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Plantary science"
-              imgPath={editor}
+              imgPath={cee}
               title="Surface Properties of Maxwell Montes region of Venus using Arecibo Dual-Polarization Radar Data"
               subtitle="Summer Internship, 2022"
 
@@ -99,7 +94,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Machine Learning, Ensemble Learning"
-              imgPath={bitsOfCode}
+              imgPath={cee}
               title="Ensemble Learning: Bagging and Boosting"
               subtitle="Reading Project, 2023"
 
@@ -116,7 +111,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Astrophysics, Stellar Accretion"
-              imgPath={bitsOfCode}
+              imgPath={cee}
               title="Bondi-Hoyle-Lyttleton accretion onto and dynamical friction drag exerted on a moving body"
               subtitle="Reading Project, 2022"
 
@@ -133,7 +128,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Cosmology"
-              imgPath={bitsOfCode}
+              imgPath={cee}
               title="Hubble Space Telescope Project and determination of Hubble parameter"
               subtitle="Reading Project, 2021"
 
@@ -152,7 +147,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Seismology, Numerical Physics"
-              imgPath={bitsOfCode}
+              imgPath={cee}
               title="Solving a system of fluid-induced fault slip"
               subtitle="Course Assignment Project, 2022"
 
@@ -169,7 +164,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               header="Astrophysics, Celestial Mechanics"
-              imgPath={suicide}
+              imgPath={cee}
               title="Study of gravity bound 3-body system using orbital dynamics and intensity interferometry"
               subtitle="Summer Internship, 2019"
 
