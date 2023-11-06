@@ -2,7 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import alphaCen from "../../Assets/Projects/alpha_centauri.jpg";
+import BHL from "../../Assets/Projects/bhl.png";
 import cee from "../../Assets/Projects/cee.png";
+import ceres from "../../Assets/Projects/ceres.jpg";
+import CMB from "../../Assets/Projects/cmb.jpg";
+import ensembleRF from "../../Assets/Projects/ensemble_rf.png";
+import fault from "../../Assets/Projects/fault.png";
+import mlAtmo from "../../Assets/Projects/ml_atmo.png";
+import Venus from "../../Assets/Projects/venus.png";
 
 function Projects() {
   return (
