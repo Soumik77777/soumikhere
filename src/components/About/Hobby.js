@@ -14,13 +14,7 @@ function PersonalAbout(){
                     Personal <strong className="purple">Interests</strong>
                 </h1>
 
-                <Card className="quote-card-view"
-                style={{
-                    borderLeft: "3px",
-                    textAlign: "left",
-                    paddingLeft: "200px",
-                    paddingRight: "200px"
-                }}>
+                <Card className="quote-card-view">
                     <Card.Body>
                         <blockquote className="blockquote mb-0">
                         <p>

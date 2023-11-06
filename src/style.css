@@ -637,6 +637,17 @@ button:focus {
   color: #9B7EAC !important;
   background-color: transparent !important;
   border-left: 3px solid gray;
+  text-align: left; /* Align text to the left */
+  padding-left: 10px; /* Default left padding for mobile */
+  padding-right: 10px; /* Default right padding for mobile */
+}
+
+/* Media query for screens with a minimum width of 768px (laptop screens) */
+@media (min-width: 768px) {
+  .quote-card-view {
+    padding-left: 200px; /* Left padding for laptops */
+    padding-right: 200px; /* Right padding for laptops */
+  }
 }
 
 .about-activity {
