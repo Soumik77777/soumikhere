@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaResearchgate, FaLinkedinIn } from "react-icons/fa";
 import { SiResearchgate } from "react-icons/si";
-import { PiGitForkDuotone } from "react-icons/pi"
+import { PiGitForkDuotone } from "react-icons/pi";
 
 function Footer() {
   let date = new Date();
