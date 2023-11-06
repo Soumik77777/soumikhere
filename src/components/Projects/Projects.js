@@ -83,7 +83,7 @@ function Projects() {
               description="Accretion of gaseous matter onto a moving body is a phenomenon of huge importance in stellar astronomy. It is a key feature in both formation and evolution of celestial bodies. The rate, at which a point mass moving through a uniform gas cloud accretes mass, was first studied and calculated by F. Hoyle and R. A. Lyttleton (1939, 1940). The problem is later investigated by H. Bondi and F. Hoyle (1944) and H. Bondi (1951) and the accretion model has been named after all three of them. As our knowledge in the field of stellar evolution expanded with time, Bondi-Hoyle-Lyttleton (BHL) accretion model has been adapted and incorporated for a vast number of complex systems. In the original works of Bondi, Hoyle and Lyttleton, a star, taken as a point mass, moves through a gas cloud, uniform and free of self-gravity, and attracts a bulk of mass to concentrate behind it. Some of the gas then can be accreted to the point mass. However, this calculation doesn't account for the gravitational force exerted by the bulk on the point mass in a direction opposite to its motion. This force, namely 'drag force', was first considered by Chandrasekhar (1943) and studied in many other literatures in later times."
 
               islink = {true}
-              link="./bhl"
+              link="https://soumik77777.github.io/projects/P463_reading_project_BHL_accretion/main.html"
               linktext="Website"
 
               islink2={false}
