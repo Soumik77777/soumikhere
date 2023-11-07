@@ -11,10 +11,10 @@ function AboutCard() {
             Know Who <strong className="purple">I'm</strong>
           </h1>
           <p style={{ textAlign: "justify" }}>
-            I am Soumik Bhattacharyya, born and raised in Bardhaman, West Bengal, India. I speak English, Bengali and Hindi fluently.
+            Hi, I am Soumik. I come from the small city of Bardhaman in West Bengal and currently live in Bhubaneswar.
             <br/>
             <br/>
-            I completed my master's degree in physics (2018-2023) from National Institute of Science Education and Research, Bhubaneswar and currently working there as a research assistant. Additionally, I am a co-owner and developer at TeraBh.ai.
+            I completed my master's degree in physics (2018-2023) from National Institute of Science Education and Research, Bhubaneswar and now working there as a research assistant. Additionally, I am a co-owner and developer at TeraBh.ai.
             <br/>
             <br/>
             Scroll down to know more about me and my interests!
