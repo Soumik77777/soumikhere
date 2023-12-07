@@ -2,8 +2,8 @@
 .custom-button {
   width: 100%;
   transition: all 0.2s;
-  background-color: #ffff00 !important;
-  color: #000000 !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: #ffffff !important;
 }
 
 .custom-button:hover {
