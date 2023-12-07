@@ -37,7 +37,7 @@ function Home() {
                 <Type />
               </div>
 
-              <p style={{marginLeft: "50px", marginBottom: "40px", fontSize: "1.5em"}} className="home-intro">
+              <p style={{marginLeft: "50px", marginBottom: "40px", marginTop: "60px", fontSize: "1.5em"}} className="home-intro">
                 This is the place where I talk about my interests, experiences and ideas. Feel free to connect!
               </p>
               
