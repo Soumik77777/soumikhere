@@ -41,7 +41,7 @@ function HomeButtons() {
           target="_blank"
           disabled
         >
-          Blog posts <BsFillArrowUpRightCircleFill />(coming...)
+          Blog posts (coming...) <BsFillArrowUpRightCircleFill />
         </Button>
       </Col>
     </Row>
