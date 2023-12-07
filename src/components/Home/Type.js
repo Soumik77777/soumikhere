@@ -3,7 +3,7 @@ import "./Type.css";
 
 function Type() {
   const [text, setText] = useState("");
-  const fullText = "Astrophysics,<br />Planetary Sciences,<br />Machine Learning & AI";
+  const fullText = "Freelance Researcher,<br />Entrepreneur,<br />Astrophysics & Artificial Intelligence";
 
   useEffect(() => {
     let currentIndex = 0;
