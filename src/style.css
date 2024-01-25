@@ -23,6 +23,10 @@ html {
   color: var(--bayern-text-color) !important;
 }
 
+.green {
+  color: #006d1b;
+}
+
 
 button:focus {
   box-shadow: none !important;

@@ -1,19 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
 import Aboutintro from "./AboutIntro";
 import Professional from "./Professional.js"
 import Hobby from "./Hobby.js"
 import laptopImg from "../../Assets/about.png";
+import Github from "./Github.js";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "space-between", padding: "10px" }}>
           <Col
             md={7}
             style={{
@@ -35,6 +34,9 @@ function About() {
         
         
         <Professional/>
+
+        <Github />
+        
         <Hobby/>
         
         {/* 
@@ -48,9 +50,9 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <Github />
         */}
+        
+
       </Container>
     </Container>
   );

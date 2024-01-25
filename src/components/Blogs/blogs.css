@@ -1,0 +1,13 @@
+.blogs-list{
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-image: url("../../Assets/Blogs/1856.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.blogs-heading{
+    color: rgba(255, 255, 255, 1);
+}

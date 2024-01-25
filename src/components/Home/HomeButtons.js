@@ -37,9 +37,9 @@ function HomeButtons() {
           className="blogs-button-link custom-button"
           variant="outline-info"
           size="lg"
-          href={"#"}
+          href={"/blogs"}
           target="_blank"
-          disabled
+          // disabled
         >
           Blog posts (coming...) <BsFillArrowUpRightCircleFill />
         </Button>
