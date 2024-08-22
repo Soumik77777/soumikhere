@@ -31,18 +31,18 @@ function Home() {
                 this side.
               </h1>
 
-              <div style={{marginLeft: "50px", textAlign: "left" }}>
-                <Type />
-              </div>
-
               <p style={{marginLeft: "50px", marginBottom: "40px", marginTop: "60px", fontSize: "1.5em"}} className="home-intro">
                 This is the place where I talk about my interests, experiences and ideas. Feel free to connect!
               </p>
               
               
-              {/*<p style={{marginLeft: "50px", marginBottom: "30px", fontSize: "1.5em"}} className="home-intro">
+              <p style={{marginLeft: "50px", marginBottom: "30px", fontSize: "1.5em"}} className="home-intro">
                 My interests include...
-              </p>*/}
+              </p>
+
+              <div style={{marginLeft: "50px", textAlign: "left" }}>
+                <Type />
+              </div>
               
 
             </Col>

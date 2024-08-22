@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import BHLPage from "./components/Projects/BHL";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import Blogs from "./components/Blogs/blogs";
+// import Blogs from "./components/Blogs/blogs";
 
 import {
   BrowserRouter as Router,
@@ -43,7 +43,7 @@ function App() {
           <Route path="/research/bhl" element={<BHLPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/blogs" element={<Blogs/>} />
+          {/* <Route path="/blogs" element={<Blogs/>} /> */}
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

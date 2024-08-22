@@ -39,7 +39,7 @@ function HomeButtons() {
           size="lg"
           href={"/blogs"}
           target="_blank"
-          // disabled
+          disabled
         >
           Blog posts (coming...) <BsFillArrowUpRightCircleFill />
         </Button>

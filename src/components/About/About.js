@@ -5,7 +5,7 @@ import Aboutintro from "./AboutIntro";
 import Professional from "./Professional.js"
 import Hobby from "./Hobby.js"
 import laptopImg from "../../Assets/about.png";
-import Github from "./Github.js";
+// import Github from "./Github.js";
 
 function About() {
   return (
@@ -35,7 +35,7 @@ function About() {
         
         <Professional/>
 
-        <Github />
+        {/* <Github /> */}
         
         <Hobby/>
         
