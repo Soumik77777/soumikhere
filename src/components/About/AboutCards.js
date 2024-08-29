@@ -3,11 +3,11 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 function AboutCards(props) {
-  const [expanded, setExpanded] = useState(true);
+  // const [expanded, setExpanded] = useState(true);
 
-  const toggleDescription = () => {
-    setExpanded(!expanded);
-  };
+  // const toggleDescription = () => {
+  //   setExpanded(!expanded);
+  // };
 
   return (
     <Card className="about-card-view">
