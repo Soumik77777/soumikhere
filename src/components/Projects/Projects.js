@@ -36,7 +36,7 @@ function Projects() {
               
               islink = {true}
               linktext= "M.Sc. Dissertation"
-              link= "https://drive.google.com/file/d/15JPmTKjMHtcsx8o5kLTbEWiae_Y7AgbY/view?usp=sharing"
+              link= "https://drive.google.com/file/d/1gWTbrAuDWQUM6-cmnOHz1VVB_TZAsh7U/view?usp=drive_link"
 
               islink2={false}
             />
@@ -53,12 +53,12 @@ function Projects() {
               description="The spectral signal data of a planetary body is a combination of signals resulting from both surface scattering and thermal emission. When examining the Visible and Infrared Spectrometer (VIR) data from NASA's Dawn mission for asteroid Ceres, it's observed that the thermal component significantly influences the reflectance spectrum in the longer near-infrared wavelengths. To isolate the surface scattering from the thermal component, various factors need to be taken into account, including radiometric calibration, correction of artifacts, and the determination of both emissivity and local surface temperature. A thermal correction model based on Clark's method of linear interpolation has been developed. The determination of emissivity at each pixel involves applying Kirchhoff's law to non-absorption wavelength regions spanning approximately 1.7 μm to 2.49 μm. Surface temperature is then determined by fitting the difference between the thermally uncorrected data and the projection of the non-absorption region toward longer wavelengths. Subsequently, each spectrum is corrected by subtracting an equivalent blackbody emission curve with specified emissivity and temperature. After applying thermal correction to the hyperspectral data, photometric correction is carried out using the Hapke's disk-resolved radiative transfer model to eliminate contributions resulting from in-flight observations of the surface in different viewing geometries. In the initial assessment of its photometric properties, Hapke's disk-resolved model is used, which includes parameters such as single-scattering albedo (ω), a single-term Henyey-Greenstein (HG1) phase function, multiple scattering with the Chandrasekhar function, and the shadow hiding opposition effect (SHOE)"
 
               islink={true}
-              link="https://drive.google.com/file/d/1AZq2QUGHLe27vQVAitS7toUONRsDfZ6D/view?usp=drive_link"
+              link="https://drive.google.com/file/d/1dV9IC_1mJBmBzEpNPHe7p-cZkF82uHJ_/view?usp=drive_link"
               linktext="Report"
 
               islink2={true}
               linktext2="IPSC, 2022"
-              link2 = "https://drive.google.com/file/d/1s4ojwrDV6fdNUkuWJcc8mlPDqreebLKv/view?usp=drive_link"
+              link2 = "https://drive.google.com/file/d/1_qpK-dsHzC1kOJsDXRut74HR2TmXFl-l/view?usp=drive_link"
             />
           </Col>
 
@@ -72,7 +72,7 @@ function Projects() {
               description="Current methods of retrieving atmospheric profiles using satellite data involves  certain physical assumptions subjected to initial conditions and boundary. In our project, we want to use machine learning to model the relation between brightness temperature (BT), which can be directly obtained from real time satellite data, with actual pressure-temperature (PT) and water vapor (wv) profiles. We used 25000 different PT and WV profiles from ECMWF data library and corresponding BT arrays along with latitude and longitude as two other parameters. We found out that the models based on Random Forest Regressor and Multilayer Perceptron (MLP), a supervised neural network based model, works best for our data. After tuning the hyperparameters, Random Forest reaches accuracies of $97.24\%$ and $82.05\%$ respectively for PT and WV profiles, when trained separately. However, it also tends to overfit the data. In case of MLP, the accuracies for predicting PT and WV profiles are respectively $92.2\%$ and $81.7\%$, with much less of a risk of overfitting."
 
               islink = {true}
-              link="https://drive.google.com/file/d/1k7-tIxmLcxW-yFxoFOxcUvQM2uc7TRZY/view?usp=drive_link"
+              link="https://drive.google.com/file/d/1H21-pshHN_PCzvk81dhsNOExtp02yNHt/view?usp=drive_link"
               linktext="Report"
 
               islink2={false}
@@ -90,7 +90,7 @@ function Projects() {
               description="We analyse S-band radar data of Venusian Surface obtained by ground based Arecibo Observatory to interpret the interrelation of radar-echoes in two orthogonal polarization states. We focus our area of interest to Maxwell Montes, the highest and steepest mountain range of Venus, which is also associated with possibilities of finding a past water-rich environment. We compare the $\sigma_{OC}$ - $\sigma_{SC}$ relation with different parts of Maxwell and then with other highlands, impact meltflows, radar-bright craters and associated radar-dark parabolas. An analysis of $\sigma_{OC}$ - $\sigma_{SC}$ trends suggest a greater surface rock population and lower effective electric permittivity in northern and southern radar-bright parts of Maxwell. Further we use the data from Magellan mission (1990-1994) for surface emissivity and planetary radius to find a general relation between the two and Circular Polarization Ratio."
 
               islink = {true}
-              link="https://drive.google.com/file/d/1dyikUe0zmtW8LnqGRJ1YR6_S4eWPXk9H/view?usp=drive_link"
+              link="https://drive.google.com/file/d/19RZBQW-QZG5kgbewI4KiG8Fb4H9PKfCa/view?usp=drive_link"
               linktext="Report"
 
               islink2={true}
@@ -143,11 +143,11 @@ function Projects() {
               description="Named after astronomer Edwin Hubble, the Hubble Space Telescope is a large, space-based observatory, launched by the space shuttle Discovery in 1990. Over the course of five astronaut servicing missions, cutting-edge scientific instruments have been added to the telescope which have grown Hubble’s capabilities immensely in its over 30 years of operation. The HST’s discoveries have revolutionized astronomy. Observations of Cepheid variables in nearby galaxies allowed the first accurate determination of Hubble’s constant, which is the rate of the universe’s expansion. The HST photographed young stars with disks that will eventually become planetary systems. The Hubble Deep Field, a photograph of about 1,500 galaxies, revealed galactic evolution over nearly the entire history of the universe. Within the solar system, the HST was also used to discover Hydra and Nix, two moons of the dwarf planet Pluto. Hubble has made more than 1.4 million observations over the course of its lifetime. Over 18,000 peer-reviewed science papers have been published on its discoveries, and every current astronomy textbook includes contributions from the observatory."
 
               islink = {true}
-              link="https://drive.google.com/file/d/110GlIGv7b6jmuUq-AbgW82ncNEUfO_mo/view?usp=drive_link"
+              link="https://drive.google.com/file/d/1hULKZYUDqHaUsGCcStN4w0IU9XtMyNYN/view?usp=drive_link"
               linktext="Report"
 
               islink2={true}
-              link2="https://drive.google.com/file/d/1hG7oj0Un9eQq0JNkNisAfOj1s0U2zoly/view?usp=drive_link"
+              link2="https://drive.google.com/file/d/1F6Orhxg5diva-IgR93WOGiL5mSSqdPD2/view?usp=drive_link"
               linktext2="Slides"
             />
           </Col>
@@ -162,7 +162,7 @@ function Projects() {
               description="The action of injecting fluid into the subsurface level of Earth is often followed by a number of earthquake events in the area. The fluid goes to the subsurface level and starts to move in radially outward direction in a region where there is already a damage zone in the rock. The host rock has a low permeability and high elastic modulus compared to the fault damage zone. The pore pressure behaves as a radial function, decreasing as we move away from the center of the borehole but increasing over time. This pore-pressure influence has the effect of decreasing the normal stress. The concept of normal stress is essential as it impacts the frictional resistance to sliding. This resistance is a product of two factors: the frictional coefficient and normal stress. Additionally, there's a background shear traction that comes into play at the boundary between the damage zone and the host rock. This traction facilitates the growth of a rupture shape that's elliptical in nature and follows the major axis, aligning with the slip direction. We solve the force balance equation with Gauss-Chebyshev quadrature of Type II."
 
               islink = {true}
-              link="https://drive.google.com/file/d/1RL3p16f1zgA2jHoEhz3E-9ylbjO4vVY-/view?usp=drive_link"
+              link="https://drive.google.com/file/d/1B13OrT5lR6UTqrgMYrtulV3rzgdHjJH1/view?usp=drive_link"
               linktext="Report"
 
               islink2={false}
@@ -180,7 +180,7 @@ function Projects() {
               
               islink={true}
               linktext= "ICFP, 2019"
-              link="https://drive.google.com/file/d/1vEX01qzCnFw9InDCv3lwANbgfC7TYPYa/view?usp=drive_link"
+              link="https://drive.google.com/file/d/13d0WqToF8NofcT_ERySU5ljzOhQjCWqv/view?usp=drive_link"
 
               islink2={false}
 
